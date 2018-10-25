@@ -1,7 +1,7 @@
 baseURL = "https://muhfajar.id"
 languageCode = "en-us"
 title = "muhfajar.id"
-theme = "basics"
+theme = "basics-fork"
 
 [params]
     author = "Muhamad Fajar"
