@@ -1,9 +1,9 @@
 baseURL = "https://muhfajar.id"
 languageCode = "en-us"
-title = "muhfajar.id"
+title = "Fajar"
 theme = "basics-fork"
 
 [params]
-    author = "Muhamad Fajar"
+    author = "fajar"
     github = "muhfajar"
     source = "_src"
