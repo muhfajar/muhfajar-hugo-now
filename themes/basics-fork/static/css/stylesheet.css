@@ -15,12 +15,16 @@
 body {
   font-family: 'Source Code Pro', monospace;
   margin: auto;
-  max-width: 55em;
+  max-width: 52em;
+}
+
+nav {
+  padding: 0px;
 }
 
 #page-title {
   text-align: center;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 #page-title h1 a {
