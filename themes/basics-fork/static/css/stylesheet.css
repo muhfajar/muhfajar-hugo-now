@@ -13,23 +13,28 @@
 }
 
 body {
-    font-family: 'Source Code Pro', monospace;
-    margin: auto;
-    max-width: 55em;
+  font-family: 'Source Code Pro', monospace;
+  margin: auto;
+  max-width: 55em;
 }
 
 #page-title {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 #page-title h1 a {
-    color: black;
-    font-size: 2.7rem;
+  color: black;
+  font-size: 2.7rem;
 }
 
 .post a {
-    color: black;
+  color: black;
+}
+
+.md-source a, .md-source a:hover {
+  color: #111111;
+  text-decoration: none;
 }
 
 #author-name h6 a {
@@ -43,11 +48,11 @@ body {
 }
 
 #page-title a:hover, .post a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .date-time-title {
-    font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .blog-post-content {
@@ -108,8 +113,4 @@ footer a {
 
 footer a:hover {
   color: #111111;
-}
-
-footer .render-time {
-  font-size: 5px !important;
 }

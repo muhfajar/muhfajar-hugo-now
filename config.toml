@@ -4,6 +4,7 @@ title = "Fajar"
 theme = "basics-fork"
 
 [params]
-    author = "fajar"
+    author = "Muhamad Fajar"
     github = "muhfajar"
+    twitter = "__muhfajar"
     source = "_src"

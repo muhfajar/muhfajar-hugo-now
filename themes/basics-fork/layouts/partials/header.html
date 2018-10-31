@@ -30,17 +30,20 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link {{ if eq .URL "/"}}active{{ end }}" href="/">&#119909; &map; &fpartint;&lpar;&#119909;&rpar;</a>
-              {{ with .Site.Params.github }}<a class="nav-item nav-link" href="https://github.com/{{ . }}" target="_blank">github</a>{{ end }}
-              {{ with .Site.Params.source }}<a class="nav-item nav-link" href="/{{ . }}" target="_blank">source</a>{{ end }}
-              <a class="nav-item nav-link {{ if eq .URL "/resume/"}}active{{ end }}" href="/resume/">résumé</a>
+                <a class="nav-item nav-link {{ if eq .URL "/"}}active{{ end }}" href="/">blog</a>
+                {{ with .Site.Params.github }}<a class="nav-item nav-link" href="https://github.com/{{ . }}" target="_blank">github</a>{{ end }}
+                {{ with .Site.Params.twitter }}<a class="nav-item nav-link" href="https://twitter.com/{{ . }}" target="_blank">twitter</a>{{ end }}
+                {{ with .Site.Params.source }}<a class="nav-item nav-link" href="/{{ . }}" target="_blank">source</a>{{ end }}
+                <a class="nav-item nav-link {{ if eq .URL "/resume/"}}active{{ end }}" href="/resume/">résumé</a>
             </div>
           </div>
         </nav>
 
         <section id="page-title">
-          <h1><a href="/">&dotminus;&#384;l&#7443;&#608;</a></h1>
-          <span id="author-name">
-            <h6><a href="/resume/">&#11835; {{ .Site.Params.Author }}</a></h6>
-          </span>
+              _________________________/\/\________/\/\/\______________/\/\_____________________
+              _/\/\/\__/\/\__/\/\__/\/\/\/\______/\/\____/\/\/\____________/\/\/\____/\/\__/\/\_
+              _/\/\/\/\/\/\/\/\/\__/\/\/\/\/\/\__/\/\/\______/\/\______/\/\____/\/\__/\/\/\/\___
+              _/\/\__/\__/\/\/\/\__/\/\/\/\__/\/\/\/\____/\/\/\/\______/\/\/\/\/\/\__/\/\_______
+              _/\/\______/\/\__/\/\/\/\/\/\__/\/\/\/\____/\/\/\/\/\____/\/\/\/\/\/\/\/\/\_______
+              _____________________________________________________/\/\/\_____muhamad_fajar_____
         </section>

@@ -1,9 +1,9 @@
       <footer>
         <hr>
         <small>
-            this work is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <p class="read-time"></p>
+            This work is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
             <br><br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-            <br><br><p class="render-time">page rendered in: <small>0</small>s</p>
         </small>
       </footer>
     </div> <!-- closes the container-fluid div -->
@@ -14,9 +14,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="/js/prism.js"></script>
 
-    <script type="text/javascript">
-      $(document).ready(function() {
-          $(".render-time small").text((Date.now()-timerStart)/1000);
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countable/3.0.0/Countable.min.js"></script>
+    <script>
+      $(document).ready(function () {
+          Countable.count($(".blog-post-content")[0], function(counter) {
+              var imageCount = $(".blog-post-content").find("img").length;
+              var seconds = counter.words / 275 * 60 + imageCount * 12;
+              var rendered = (Date.now()-timerStart) / 1000;
+              var minutes = Math.round(((seconds + rendered) / 60) * 100) / 100;
+              $(".read-time").html("You've spent time reading for " + minutes + " min.");
+          });
       });
     </script>
   </body>
