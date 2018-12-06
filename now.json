@@ -1,6 +1,8 @@
 {
   "version": 2,
-  "type": "static",
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "www" } }
+  ],
   "alias": "muhfajar.id",
   "name": "muhfajar-hugo-now"
 }
