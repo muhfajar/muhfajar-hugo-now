@@ -1,30 +1,47 @@
-      <footer>
-        <hr>
-        <small>
-            <p class="read-time"></p>
-            This work is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-            <br><br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-        </small>
-      </footer>
-    </div> <!-- closes the container-fluid div -->
+<footer>
+    <hr>
+    <small>
+        <p class="read-time"></p>
+        <p>This work is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+        <p>Cached: <i id="cached-ref"></i> | ISP: <i id="isp-ref"></i> | Hostname: <i id="hostname-ref"></i> | Country: <i id="country-name-ref"></i></p>
+        <br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br><br>
+    </small>
+</footer>
+</div> <!-- closes the container-fluid div -->
 
-    <!-- load bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="/js/prism.js"></script>
+<!-- load bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="/js/prism.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/countable/3.0.0/Countable.min.js"></script>
-    <script>
-      $(document).ready(function () {
-          Countable.count($(".blog-post-content")[0], function(counter) {
-              var imageCount = $(".blog-post-content").find("img").length;
-              var seconds = counter.words / 275 * 60 + imageCount * 12;
-              var rendered = (Date.now()-timerStart) / 1000;
-              var minutes = Math.round(((seconds + rendered) / 60) * 100) / 100;
-              $(".read-time").html("You've spent time reading for " + minutes + " min.");
-          });
-      });
-    </script>
-  </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countable/3.0.0/Countable.min.js"></script>
+
+<script>
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200) {
+            var result = JSON.parse(this.responseText);
+            document.getElementById("cached-ref").innerHTML = result.cached;
+            document.getElementById("isp-ref").innerHTML = result.isp;
+            document.getElementById("hostname-ref").innerHTML = result.hostname;
+            document.getElementById("country-name-ref").innerHTML = result.country_name;
+        }
+    };
+    xmlhttp.open("GET", "https://json.geoiplookup.io/api", true);
+    xmlhttp.send();
+</script>
+
+<script>
+    $(document).ready(function () {
+        Countable.count($(".blog-post-content")[0], function(counter) {
+            var imageCount = $(".blog-post-content").find("img").length;
+            var seconds = counter.words / 275 * 60 + imageCount * 12;
+            var rendered = (Date.now()-timerStart) / 1000;
+            var minutes = Math.round(((seconds + rendered) / 60) * 100) / 100;
+            $(".read-time").html("You've spent time reading for " + minutes + " min.");
+        });
+    });
+</script>
+</body>
 </html>

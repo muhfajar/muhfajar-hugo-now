@@ -14,7 +14,7 @@ draft: false
 
 **DESCRIPTION**\
 &nbsp;&nbsp;&nbsp;&nbsp;I’m a software engineer. Usually in Ruby. Sometimes in Python, PHP, or others.\
-&nbsp;&nbsp;&nbsp;&nbsp;You can find my profile on link github on above.
+&nbsp;&nbsp;&nbsp;&nbsp;You can find my profile on link github above.
 
 **CONTACT**\
 &nbsp;&nbsp;&nbsp;&nbsp;If you should desire to contact me, you can reach me using *hi at this domain*.
