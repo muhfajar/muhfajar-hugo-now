@@ -3,8 +3,7 @@
     <small>
         <p class="read-time"></p>
         <p>This work is licensed under a<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-        <p>Cached: <i id="cached-ref"></i> | ISP: <i id="isp-ref"></i> | Hostname: <i id="hostname-ref"></i> | Country: <i id="country-name-ref"></i></p>
-        <br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br><br>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     </small>
 </footer>
 </div> <!-- closes the container-fluid div -->
@@ -16,21 +15,6 @@
 <script src="/js/prism.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/countable/3.0.0/Countable.min.js"></script>
-
-<script>
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState === 4 && this.status === 200) {
-            var result = JSON.parse(this.responseText);
-            document.getElementById("cached-ref").innerHTML = result.cached;
-            document.getElementById("isp-ref").innerHTML = result.isp;
-            document.getElementById("hostname-ref").innerHTML = result.hostname;
-            document.getElementById("country-name-ref").innerHTML = result.country_name;
-        }
-    };
-    xmlhttp.open("GET", "https://json.geoiplookup.io/api", true);
-    xmlhttp.send();
-</script>
 
 <script>
     $(document).ready(function () {
