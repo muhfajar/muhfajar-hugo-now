@@ -13,8 +13,20 @@
 <script src="/js/min/popper.min_42a3b6a421962252c39a86100e1dcb53.js"></script>
 <script src="/js/min/bootstrap.min_757b70328406f35dfbe3f35129670898.js"></script>
 <script src="/js/min/Countable.min_38f188c380a030925cfb42566ce4e17b.js"></script>
-<script src="/js/min/prism.min.js"></script>
-<script src="/js/min/script.min.js"></script>
+<script src="/js/min/prism.min_307e68451d73743356a5e433eacd7484.js"></script>
+
+<script type="application/javascript">
+    $(document).ready(function () {
+        Countable.count($(".blog-post-content")[0], function(counter) {
+            var imageCount = $(".blog-post-content").find("img").length;
+            var seconds = counter.words / 275 * 60 + imageCount * 12;
+            var rendered = (Date.now()-timerStart) / 1000;
+            var minutes = Math.round(((seconds + rendered) / 60) * 100) / 100;
+            $(".read-time").html("You've spent time reading for " + minutes + " min.");
+        });
+    });
+
+</script>
 
 </body>
 </html>
