@@ -36,6 +36,7 @@
                 {{ with .Site.Params.twitter }}<a class="nav-item nav-link" href="https://twitter.com/{{ . }}" target="_blank">twitter</a>{{ end }}
                 {{ with .Site.Params.source }}<a class="nav-item nav-link" href="/{{ . }}" target="_blank">source</a>{{ end }}
                 <a class="nav-item nav-link {{ if eq .URL "/resume/"}}active{{ end }}" href="/resume/">résumé</a>
+                <a class="nav-item nav-link {{ if eq .URL "/chat/"}}active{{ end }}" href="/chat/">chat</a>
             </div>
         </div>
     </nav>
