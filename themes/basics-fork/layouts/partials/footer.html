@@ -1,4 +1,9 @@
 <footer>
+    {{ if eq .URL "/"}}
+        &nbsp;
+    {{ else }}
+        <img src="/drawkit-nature-man-monochrome.svg" style="display: block; margin-left: auto; margin-right: auto; width: 70%;">
+    {{ end }}
     <hr>
     <small>
         <p class="read-time"></p>

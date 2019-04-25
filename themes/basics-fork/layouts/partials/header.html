@@ -31,23 +31,22 @@
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link {{ if eq .URL "/"}}active{{ end }}" href="/">blog</a>
+                <a class="nav-item nav-link {{ if eq .URL "/" }}active{{ end }}" href="/">home</a>
                 {{ with .Site.Params.github }}<a class="nav-item nav-link" href="https://github.com/{{ . }}" target="_blank">github</a>{{ end }}
                 {{ with .Site.Params.twitter }}<a class="nav-item nav-link" href="https://twitter.com/{{ . }}" target="_blank">twitter</a>{{ end }}
                 {{ with .Site.Params.source }}<a class="nav-item nav-link" href="/{{ . }}" target="_blank">source</a>{{ end }}
-                <a class="nav-item nav-link {{ if eq .URL "/resume/"}}active{{ end }}" href="/resume/">résumé</a>
-                <a class="nav-item nav-link {{ if eq .URL "/chat/"}}active{{ end }}" href="/chat/">chat</a>
+                <a class="nav-item nav-link {{ if eq .URL "/resume/" }}active{{ end }}" href="/resume/">résumé</a>
+                <a class="nav-item nav-link {{ if eq .URL "/chat/" }}active{{ end }}" href="/chat/">chat</a>
             </div>
         </div>
     </nav>
 
     <section id="page-title" class="web">
-        _________________________/\/\________/\/\/\______________/\/\_____________________
-        _/\/\/\__/\/\__/\/\__/\/\/\/\______/\/\____/\/\/\____________/\/\/\____/\/\__/\/\_
-        _/\/\/\/\/\/\/\/\/\__/\/\/\/\/\/\__/\/\/\______/\/\______/\/\____/\/\__/\/\/\/\___
-        _/\/\__/\__/\/\/\/\__/\/\/\/\__/\/\/\/\____/\/\/\/\______/\/\/\/\/\/\__/\/\_______
-        _/\/\______/\/\__/\/\/\/\/\/\__/\/\/\/\____/\/\/\/\/\____/\/\/\/\/\/\/\/\/\_______
-        _____________________________________________________/\/\/\___ {{ .Site.Params.Author }} _____
+        {{ if eq .URL "/"}}
+            <img src="/drawkit-nature-man-colour.svg" width="100%" style="padding: 20px">
+        {{ else }}
+            <hr>
+        {{ end }}
     </section>
 
     <section id="page-title" class="mobile">
