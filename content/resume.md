@@ -31,7 +31,7 @@ draft: false
         "join": "02 Jan 2018",
         "projects": [
           {
-            "project": "Go-Tix Backend - BE mobile and web",
+            "project": "GO-TIX Backend - BE mobile and web",
             "tools": [
               "ruby on rails",
               "mysql",
@@ -102,6 +102,38 @@ draft: false
               "mysql"
             ],
             "link": "https://www.unimo.id/"
+          }
+        ]
+      },
+      {
+        "employer": "PT. Talenesia Network Techmedia",
+        "homepage": "https://www.talenesia.com/",
+        "join": "06 Apr 2015",
+        "projects": [
+          {
+            "project": "Talenesia - Talent Hub",
+            "tools": [
+              "laravel",
+              "mysql",
+              "angular"
+            ],
+            "link": "https://www.talenesia.com/"
+          }
+        ]
+      },
+      {
+        "employer": "Hahah Games Studio",
+        "homepage": "https://www.hahahgames.com/",
+        "join": "20 Sep 2013",
+        "projects": [
+          {
+            "project": "Fill My Water the Game",
+            "tools": [
+              "phaser",
+              "javascipt",
+              "canvas"
+            ],
+            "link": "https://play.google.com/store/apps/details?id=id.hahahgames.fillmywater"
           }
         ]
       }
