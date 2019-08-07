@@ -31,7 +31,7 @@ draft: false
         "join": "02 Jan 2018",
         "projects": [
           {
-            "project": "GO-TIX Backend - BE mobile and web",
+            "project": "GoTix Backend - BE mobile and web",
             "tools": [
               "ruby on rails",
               "mysql",
@@ -139,7 +139,7 @@ draft: false
       }
     ]
   },
-  "updated": "09 Oct 2018",
+  "updated": "07 Aug 2019",
   "created": "20 Aug 2011"
 }
 ```
