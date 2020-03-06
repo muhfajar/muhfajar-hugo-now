@@ -13,7 +13,7 @@ draft: false
 &nbsp;&nbsp;&nbsp;&nbsp;Ordinary person who live in Indonesia.
 
 **DESCRIPTION**\
-&nbsp;&nbsp;&nbsp;&nbsp;I’m a software engineer. Usually in Ruby. Sometimes in Python, PHP, or others.\
+&nbsp;&nbsp;&nbsp;&nbsp;I’m a software engineer. Usually in Ruby. Sometimes in Go, Python, PHP, or others.\
 &nbsp;&nbsp;&nbsp;&nbsp;You can find my profile on link github above.
 
 **CONTACT**\
@@ -31,12 +31,16 @@ draft: false
         "join": "02 Jan 2018",
         "projects": [
           {
-            "project": "GoTix Backend - BE mobile and web",
-            "tools": [
+            "project": "GoTix",
+            "tech_stack": [
+              "python",
+              "go",
+              "ruby",
               "ruby on rails",
               "mysql",
               "redis",
-              "sidekiq"
+              "sidekiq",
+              "celery"
             ],
             "link": "https://go-tix.id/"
           }
@@ -49,7 +53,7 @@ draft: false
         "projects": [
           {
             "project": "SS Hub RFID Login Middleware - full backend from scratch, API and dashboard",
-            "tools": [
+            "tech_stack": [
               "django",
               "mysql"
             ],
@@ -57,7 +61,7 @@ draft: false
           },
           {
             "project": "Flexi People Workspace (as a team)",
-            "tools": [
+            "tech_stack": [
               "codeigniter",
               "mysql"
             ],
@@ -65,7 +69,7 @@ draft: false
           },
           {
             "project": "STS Paket (as a team)",
-            "tools": [
+            "tech_stack": [
               "codeigniter",
               "mysql"
             ],
@@ -73,7 +77,7 @@ draft: false
           },
           {
             "project": "Senior Housing AU (as a team)",
-            "tools": [
+            "tech_stack": [
               "codeigniter",
               "mysql"
             ],
@@ -81,7 +85,7 @@ draft: false
           },
           {
             "project": "Job Link Plus - backend dashboard (as a team)",
-            "tools": [
+            "tech_stack": [
               "codeigniter",
               "mysql"
             ],
@@ -89,7 +93,7 @@ draft: false
           },
           {
             "project": "My Coping Plan - full backend from scratch, API and dashboard",
-            "tools": [
+            "tech_stack": [
               "laravel",
               "mysql"
             ],
@@ -97,7 +101,7 @@ draft: false
           },
           {
             "project": "Unimo (as a team)",
-            "tools": [
+            "tech_stack": [
               "codeigniter",
               "mysql"
             ],
@@ -112,7 +116,7 @@ draft: false
         "projects": [
           {
             "project": "Talenesia - Talent Hub",
-            "tools": [
+            "tech_stack": [
               "laravel",
               "mysql",
               "angular"
@@ -128,7 +132,7 @@ draft: false
         "projects": [
           {
             "project": "Fill My Water the Game",
-            "tools": [
+            "tech_stack": [
               "phaser",
               "javascipt",
               "canvas"
