@@ -1,0 +1,57 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Translations"
+
+[postAvailable]
+other = "Also available in"
+
+[postTitle]
+other = "Posts"
+
+[postTags]
+other = "Tags"
+
+[postCategories]
+other = "Categories"
+
+[about]
+other = "about"
+
+[posts]
+other = "posts"
+
+[resume]
+other = "résumé"
+
+[source]
+other = "source code"
+
+
+# 404.html
+#
+[archives]
+other = "Archives"
+
+[home]
+other = "Home"
+
+[notFound]
+other = "Oops, page not found…"
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "One minute"
+other = "{{ .Count }} minutes"
+
+[tableOfContents]
+other = "Table of Contents"
+
+[wordCount]
+one   = "One Word"
+other = "{{ .Count }} Words"

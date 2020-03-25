@@ -1,0 +1,57 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "Terjemahan"
+
+[postAvailable]
+other = "Juga tersedia dalam"
+
+[postTitle]
+other = "Tulisan"
+
+[postTags]
+other = "Tag"
+
+[postCategories]
+other = "Kategori"
+
+[about]
+other = "tentang"
+
+[posts]
+other = "tulisan"
+
+[resume]
+other = "resume"
+
+[source]
+other = "kode sumber"
+
+
+# 404.html
+#
+[archives]
+other = "Archives"
+
+[home]
+other = "Home"
+
+[notFound]
+other = "Oops, page not found…"
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "Satu menit"
+other = "{{ .Count }} menit"
+
+[tableOfContents]
+other = "Daftar Isi"
+
+[wordCount]
+one   = "Satu Huruf"
+other = "{{ .Count }} Huruf"

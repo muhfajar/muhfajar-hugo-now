@@ -1,0 +1,42 @@
+{{ define "main" }}
+    <main class="posts">
+        <div class="posts-info">
+            <h1>{{ i18n "postTitle" }}</h1>
+            <div class="posts-type">
+                <div class="posts-type__inner">
+                    <div class="posts-type__content">
+                        <span><a href="../tags/">{{ i18n "postTags" }}</a></span>
+                        <span><a href="../categories/">{{ i18n "postCategories" }}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{- if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{- end }}
+
+        {{- range .Data.Pages.GroupByDate "2006" }}
+            <div class="posts-group">
+                <div class="post-year">{{ .Key }}</div>
+
+                <ul class="posts-list">
+                    {{- range .Pages }}
+                        <li class="post-item">
+                            <a href="{{.Permalink}}">
+                                <span class="post-title">{{.Title}}</span>
+                                <span class="post-day">
+                                    {{ if .Site.Params.dateformShort }}
+                                        {{ .Date.Format .Site.Params.dateformShort }}
+                                    {{ else }}
+                                        {{ .Date.Format "Jan 2"}}
+                                    {{ end }}
+                                </span>
+                            </a>
+                        </li>
+                    {{- end }}
+                </ul>
+            </div>
+        {{- end }}
+    </main>
+{{ end }}

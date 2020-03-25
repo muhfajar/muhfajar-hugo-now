@@ -1,0 +1,163 @@
+body .gist {
+  border: none;
+
+  .gist-file {
+    border: none;
+  }
+}
+
+.gist {
+  .gist-data {
+    border: #d3d9df 1px solid;
+
+    .dark-theme & {
+      border: $dark-background-secondary 1px solid;
+    }
+  }
+
+  .gist-meta {
+    border: #d3d9df 1px solid;
+
+    .dark-theme & {
+      border: $dark-background-secondary 1px solid;
+      background: #272822;
+      color: $dark-color;
+    }
+  }
+
+  .highlight {
+    .dark-theme & {
+      background: #272822;
+    }
+  }
+
+  .blob-num, .blob-code-inner, .pl-s2, .pl-stj {
+    .dark-theme & {
+      color: #f8f8f2;
+    }
+  }
+
+  .pl-c1 {
+    .dark-theme & {
+      color: #ae81ff;
+    }
+  }
+
+  .pl-enti {
+    .dark-theme & {
+      color: #a6e22e;
+      font-weight: 700;
+    }
+  }
+
+  .pl-st {
+    .dark-theme & {
+      color: #66d9ef;
+    }
+  }
+
+  .pl-mdr {
+    .dark-theme & {
+      color: #66d9ef;
+      font-weight: 400;
+    }
+  }
+
+  .pl-ms1 {
+    .dark-theme & {
+      background: #fd971f;
+    }
+  }
+
+  .pl-c, .pl-c span, .pl-pdc {
+    .dark-theme & {
+      color: #75715e;
+      font-style: italic;
+    }
+  }
+
+  .pl-cce, .pl-cn, .pl-coc, .pl-enc, .pl-ens, .pl-kos,
+  .pl-kou, .pl-mh .pl-pdh, .pl-mp, .pl-mp1 .pl-sf, .pl-mq,
+  .pl-pde, .pl-pse, .pl-pse .pl-s2, .pl-mp .pl-s3, .pl-smi,
+  .pl-stp, .pl-sv, .pl-v, .pl-vi, .pl-vpf, .pl-mri, .pl-va, .pl-vpu {
+    .dark-theme & {
+      color: #66d9ef;
+    }
+  }
+
+  .pl-cos, .pl-ml, .pl-pds, .pl-s, .pl-s1, .pl-sol {
+    .dark-theme & {
+      color: #e6db74;
+    }
+  }
+
+  .pl-e, .pl-ef, .pl-en, .pl-enf, .pl-enm, .pl-entc, .pl-entm,
+  .pl-eoac, .pl-eoac .pl-pde, .pl-eoi, .pl-mai .pl-sf, .pl-mm,
+  .pl-pdv, .pl-som, .pl-sr, .pl-vo {
+    .dark-theme & {
+      color: #a6e22e;
+    }
+  }
+
+  .pl-ent, .pl-eoa, .pl-eoai, .pl-eoai .pl-pde, .pl-k, .pl-ko,
+  .pl-kolp, .pl-mc, .pl-mr, .pl-ms, .pl-s3, .pl-smc, .pl-smp,
+  .pl-sok, .pl-sra, .pl-src, .pl-sre {
+    .dark-theme & {
+      color: #f92672;
+    }
+  }
+
+  .pl-mb, .pl-pdb {
+    .dark-theme & {
+      color: #e6db74;
+      font-weight: 700;
+    }
+  }
+
+  .pl-mi, .pl-pdi {
+    .dark-theme & {
+      color: #f92672;
+      font-style: italic;
+    }
+  }
+
+  .pl-pdc1, .pl-scp {
+    .dark-theme & {
+      color: #ae81ff;
+    }
+  }
+
+  .pl-sc, .pl-sf, .pl-mo, .pl-entl {
+    .dark-theme & {
+      color: #fd971f;
+    }
+  }
+
+  .pl-mi1, .pl-mdht {
+    .dark-theme & {
+      color: #a6e22e;
+      background: rgba(0, 64, 0, .5);
+    }
+  }
+
+  .pl-md, .pl-mdhf {
+    .dark-theme & {
+      color: #f92672;
+      background: rgba(64, 0, 0, .5);
+    }
+  }
+
+  .pl-mdh, .pl-mdi {
+    .dark-theme & {
+      color: #a6e22e;
+      font-weight: 400;
+    }
+  }
+
+  .pl-ib, .pl-id, .pl-ii, .pl-iu {
+    .dark-theme & {
+      background: #a6e22e;
+      color: #272822;
+    }
+  }
+}
