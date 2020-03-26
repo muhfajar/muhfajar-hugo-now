@@ -64,14 +64,15 @@ Programming Languages & Framework
     thank God, I'm not breaking the legacy code.
 
 :   **Django:** This framework is like my deadline friend, almost all side project
-    what I was done is using Django, when I only have limited time in a weekend, I need
-    something that I can count on and Django is the answer. Using this framework I can
-    cut off timeline from 3 months of work to only 1 month.
+    what I was done is using [Django][django], when I only have limited time in a
+    weekend, I need something that I can count on and Django is the answer. Using
+    this framework I can cut off timeline from 3 months of work to only 1 month. 
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   **Go:** The journey began when I need something fast; fast in development and
+    also fast in processing external API. I'm using Go relatively still very new,
+    but so far so good, I can easily understand using this programing language.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+:   Basic knowledge of **[Rust][rust]**, **[Polymer][polymer]**, **[Vue.js][vue]**, **[React.js][react]**
 
 Open Source Projects
 
@@ -111,12 +112,17 @@ Misc
 {{< small text="**months of work means a total of coding time approximately." >}}
 
 [ruby]: https://www.ruby-lang.org/en/
-[python]: https://www.python.org
-[go]: https://golang.org
-[php]: https://www.php.net
-[uin]: https://uinsgd.ac.id
-[gotix]: https://go-tix.id
-[loket]: https://loket.com
-[softwareseni]: https://softwareseni.co.id
-[talenesia]: https://www.talenesia.com
-[hahah]: https://www.hahahgames.com
+[python]: https://www.python.org/
+[go]: https://golang.org/
+[php]: https://www.php.net/
+[uin]: https://uinsgd.ac.id/
+[gotix]: https://go-tix.id/
+[loket]: https://loket.com/
+[softwareseni]: https://softwareseni.co.id/
+[talenesia]: https://www.talenesia.com/
+[hahah]: https://www.hahahgames.com/
+[django]: https://www.djangoproject.com/
+[rust]: https://www.rust-lang.org/
+[polymer]: https://www.polymer-project.org/
+[vue]: https://vuejs.org/
+[react]: https://reactjs.org/
