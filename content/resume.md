@@ -7,66 +7,66 @@ aliases:
     - résumé
     - /en/résumé
     - /en/resume
-draft: true
+draft: false
 tags:
     - fajar
 ---
 
 Muhamad Fajar
 -------------
-:   I write software. Usually in Ruby. Sometimes in Go, Python, PHP, or others.
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"/></svg>
+
+:   I write software. Usually in [Ruby][ruby]. Sometimes in [Go][go], [Python][python], [PHP][php], or others.
     If you should desire to contact me, you can reach me using *hi at this domain*.
 
 Education
 ---------
 2010-2015
 
-:   **Faculty of Science and Technology**; UIN Sunan Gunung Djati (Bandung, Indonesia)\
+:   **Faculty of Science and Technology**; [UIN Sunan Gunung Djati][uin] (Bandung, Indonesia)\
     *Major: Computer Science/Informatics*
 
 Experience
 -----------
 2018-present
 
-:   **GoTix Tech Lead/Software Engineer**; [GoTix](https://go-tix.id) is a movie &
+:   **GoTix Tech Lead/Software Engineer**; [GoTix][gotix] is a movie &
     event discovery with on-demand ticket order services.\
-    *Employer: [PT. Global Loket Sejahtera](https://loket.com)*
+    *Employer: [PT. Global Loket Sejahtera][loket]*
 
 2016-2018
 
-:   **Software Engineer**; [SoftwareSeni](https://softwareseni.co.id) is a tightly
+:   **Software Engineer**; [SoftwareSeni][softwareseni] is a tightly
     knit team of designers, developers, quality assurance, marketing, content
     strategy, and customer service.\
-    *Employer: [PT. SoftwareSeni](https://softwareseni.co.id)*
+    *Employer: [PT. SoftwareSeni][softwareseni]*
 
 2015-2016
 
-:   **Tech Lead/Full Stack Engineer**; [Talenesia](https://www.talenesia.com) is
+:   **Tech Lead/Full Stack Engineer**; [Talenesia][talenesia] is
     talent pool and entertainer search engine.\
-    *Employer: [PT. Talenesia Network Techmedia](https://www.talenesia.com)*
+    *Employer: [PT. Talenesia Network Techmedia][talenesia]*
 
 2013-2014
 
-:   **Game Developer**; [Hahah Games Studio](https://www.hahahgames.com) is game
+:   **Game Developer**; [Hahah Games Studio][hahah] is game
     studio based in Bandung.\
-    *Employer: [Hahah Games Studio](https://www.hahahgames.com)*
+    *Employer: [Hahah Games Studio][hahah]*
 
 Technical Experience
 ---------------------
-Programming Languages
+Programming Languages & Framework
 
-:   **Ruby:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   **Ruby:** I began using Ruby is when I started working at [Lokét][loket].
+    From that day I have only 2 days before my very first task using Ruby itself.
+    The first task is creating API for deep-linking event categorized, fortunately
+    with very limited knowledge about Ruby and never touched that language before,
+    thank God, I'm not breaking the legacy code.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   **Django:** This framework is like my deadline friend, almost all side project
+    what I was done is using Django, when I only have limited time in a weekend, I need
+    something that I can count on and Django is the answer. Using this framework I can
+    cut off timeline from 3 months of work to only 1 month.
 
 :   **obscure-but-impressive-lang:** We both know this one's pushing
     it.
@@ -104,6 +104,19 @@ Misc
     * Sunda (native speaker)
     * English (sufficient)
 
-<br><br>
-<small>*all employer description taken from their official website.\
-**months of work means a total of coding time approximately.</small>
+
+{{< br >}}
+
+{{< small text="*all employer description taken from their official website." >}}\
+{{< small text="**months of work means a total of coding time approximately." >}}
+
+[ruby]: https://www.ruby-lang.org/en/
+[python]: https://www.python.org
+[go]: https://golang.org
+[php]: https://www.php.net
+[uin]: https://uinsgd.ac.id
+[gotix]: https://go-tix.id
+[loket]: https://loket.com
+[softwareseni]: https://softwareseni.co.id
+[talenesia]: https://www.talenesia.com
+[hahah]: https://www.hahahgames.com
