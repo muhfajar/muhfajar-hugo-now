@@ -1,0 +1,3 @@
+{{ if .Get "text" }}
+    <sub><sup>{{ .Get "text" | safeURL }}</sup></sub>
+{{ end }}

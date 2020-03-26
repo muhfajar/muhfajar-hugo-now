@@ -1,10 +1,10 @@
 {{ if .Get "src" }}
-<div class="wrapper {{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}">
-    <div class="item">
-        <div class="polaroid">
-            <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
-            <div class="caption">{{ .Get "caption" | safeURL }}</div>
+    <div class="wrapper {{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}">
+        <div class="item">
+            <div class="polaroid">
+                <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
+                <div class="caption">{{ .Get "caption" | safeURL }}</div>
+            </div>
         </div>
     </div>
-</div>
 {{ end }}
