@@ -10,6 +10,11 @@ type:
 weight: 10
 series:
     - Hugo 101
+tags:
+    - development
+categories:
+    - hugo
+    - development
 ---
 
 ## Move static content to `static`
