@@ -34,13 +34,13 @@ other = "kode sumber"
 # 404.html
 #
 [archives]
-other = "Archives"
+other = "tulisan"
 
 [home]
-other = "Home"
+other = "beranda"
 
 [notFound]
-other = "Oops, page not found…"
+other = "Oops, halaman tidak ditemukan…"
 
 
 # posts/single.html

@@ -1,149 +1,109 @@
 ---
-title: "Résumé"
+author:
+    name: Muhamad Fajar
 date: 2018-10-09T18:30:21-07:00
-draft: false
+title: Résumé
+aliases:
+    - résumé
+    - /en/résumé
+    - /en/resume
+draft: true
+tags:
+    - fajar
 ---
 
-**WHO(1)**
+Muhamad Fajar
+-------------
+:   I write software. Usually in Ruby. Sometimes in Go, Python, PHP, or others.
+    If you should desire to contact me, you can reach me using *hi at this domain*.
 
-**NAME**\
-&nbsp;&nbsp;&nbsp;&nbsp;Muhamad Fajar
+Education
+---------
+2010-2015
 
-**SYNOPSIS**\
-&nbsp;&nbsp;&nbsp;&nbsp;Ordinary person who live in Indonesia.
+:   **Faculty of Science and Technology**; UIN Sunan Gunung Djati (Bandung, Indonesia)\
+    *Major: Computer Science/Informatics*
 
-**DESCRIPTION**\
-&nbsp;&nbsp;&nbsp;&nbsp;I’m a software engineer. Usually in Ruby. Sometimes in Go, Python, PHP, or others.\
-&nbsp;&nbsp;&nbsp;&nbsp;You can find my profile on link github above.
+Experience
+-----------
+2018-present
 
-**CONTACT**\
-&nbsp;&nbsp;&nbsp;&nbsp;If you should desire to contact me, you can reach me using *hi at this domain*.
+:   **GoTix Tech Lead/Software Engineer**; [GoTix](https://go-tix.id) is a movie &
+    event discovery with on-demand ticket order services.\
+    *Employer: [PT. Global Loket Sejahtera](https://loket.com)*
 
----
+2016-2018
 
-```json
-{
-  "data": {
-    "project_portfolio": [
-      {
-        "employer": "PT. Global Loket Sejahtera",
-        "homepage": "https://www.loket.com/",
-        "join": "02 Jan 2018",
-        "projects": [
-          {
-            "project": "GoTix",
-            "tech_stack": [
-              "python",
-              "go",
-              "ruby",
-              "ruby on rails",
-              "mysql",
-              "redis",
-              "sidekiq",
-              "celery"
-            ],
-            "link": "https://go-tix.id/"
-          }
-        ]
-      },
-      {
-        "employer": "PT. SoftwareSeni",
-        "homepage": "https://www.softwareseni.co.id/",
-        "join": "13 Mar 2017",
-        "projects": [
-          {
-            "project": "SS Hub RFID Login Middleware - full backend from scratch, API and dashboard",
-            "tech_stack": [
-              "django",
-              "mysql"
-            ],
-            "link": "http://hub.softwareseni.co.id/"
-          },
-          {
-            "project": "Flexi People Workspace (as a team)",
-            "tech_stack": [
-              "codeigniter",
-              "mysql"
-            ],
-            "link": "https://flexipeople.tools/"
-          },
-          {
-            "project": "STS Paket (as a team)",
-            "tech_stack": [
-              "codeigniter",
-              "mysql"
-            ],
-            "link": "https://paketsts.co.id/"
-          },
-          {
-            "project": "Senior Housing AU (as a team)",
-            "tech_stack": [
-              "codeigniter",
-              "mysql"
-            ],
-            "link": "https://seniorshousingonline.com.au/"
-          },
-          {
-            "project": "Job Link Plus - backend dashboard (as a team)",
-            "tech_stack": [
-              "codeigniter",
-              "mysql"
-            ],
-            "link": "https://www.joblinkplus.com.au/"
-          },
-          {
-            "project": "My Coping Plan - full backend from scratch, API and dashboard",
-            "tech_stack": [
-              "laravel",
-              "mysql"
-            ],
-            "link": "https://mycopingplan.com.au/"
-          },
-          {
-            "project": "Unimo (as a team)",
-            "tech_stack": [
-              "codeigniter",
-              "mysql"
-            ],
-            "link": "https://www.unimo.id/"
-          }
-        ]
-      },
-      {
-        "employer": "PT. Talenesia Network Techmedia",
-        "homepage": "https://www.talenesia.com/",
-        "join": "06 Apr 2015",
-        "projects": [
-          {
-            "project": "Talenesia - Talent Hub",
-            "tech_stack": [
-              "laravel",
-              "mysql",
-              "angular"
-            ],
-            "link": "https://www.talenesia.com/"
-          }
-        ]
-      },
-      {
-        "employer": "Hahah Games Studio",
-        "homepage": "https://www.hahahgames.com/",
-        "join": "20 Sep 2013",
-        "projects": [
-          {
-            "project": "Fill My Water the Game",
-            "tech_stack": [
-              "phaser",
-              "javascipt",
-              "canvas"
-            ],
-            "link": "https://play.google.com/store/apps/details?id=id.hahahgames.fillmywater"
-          }
-        ]
-      }
-    ]
-  },
-  "updated": "07 Aug 2019",
-  "created": "20 Aug 2011"
-}
-```
+:   **Software Engineer**; [SoftwareSeni](https://softwareseni.co.id) is a tightly
+    knit team of designers, developers, quality assurance, marketing, content
+    strategy, and customer service.\
+    *Employer: [PT. SoftwareSeni](https://softwareseni.co.id)*
+
+2015-2016
+
+:   **Tech Lead/Full Stack Engineer**; [Talenesia](https://www.talenesia.com) is
+    talent pool and entertainer search engine.\
+    *Employer: [PT. Talenesia Network Techmedia](https://www.talenesia.com)*
+
+2013-2014
+
+:   **Game Developer**; [Hahah Games Studio](https://www.hahahgames.com) is game
+    studio based in Bandung.\
+    *Employer: [Hahah Games Studio](https://www.hahahgames.com)*
+
+Technical Experience
+---------------------
+Programming Languages
+
+:   **Ruby:** Here, we have an itemization, where we only want
+    to add descriptions to the first few items, but still want to
+    mention some others together at the end. A format that works well
+    here is a description list where the first few items have their
+    first word emphasized, and the last item contains the final few
+    emphasized terms. Notice the reasonably nice page break in the pdf
+    version, which wouldn't happen if we generated the pdf via html.
+
+:   **second-lang:** Description of your experience with second-lang,
+    perhaps again including a [link] [ref], this time placing the url
+    reference elsewhere in the document to reduce clutter (see source
+    file). 
+
+:   **obscure-but-impressive-lang:** We both know this one's pushing
+    it.
+
+:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+
+Open Source Projects
+
+:   I also contribute to open source project, mostly contribution because I'm
+    using that lib/app but getting error when compile or running and also adding
+    new localization.
+    
+    * [django-fcm](https://github.com/Chitrank-Dixit/django-fcm)
+    * [django-indonesia-regions](https://github.com/Keda87/django-indonesia-regions)
+    * [Arc-Menu](https://github.com/lexruee/Arc-Menu)
+
+Side Project
+
+:   Less than 1 month of work.
+
+    * **[Brilcrist](http://brilcrist.com)**; Backend developer, infra (Docker, domain, etc)   
+    * **[Journal JPMF STIFA Makasar](http://www.jpms-stifa.com/index.php/jpms)**; Full-stack engineer
+    
+:   Less than 2 months of work.
+
+    * **[Dapur Coklat App](http://dapurcokelat.com)**; Backend developer
+
+[ref]: https://github.com/githubuser/superlongprojectname
+
+Misc
+----
+* Languages:
+
+    * Bahasa (native speaker)
+    * Sunda (native speaker)
+    * English (sufficient)
+
+<br><br>
+<small>*all employer description taken from their official website.\
+**months of work means a total of coding time approximately.</small>

@@ -34,10 +34,10 @@ other = "source code"
 # 404.html
 #
 [archives]
-other = "Archives"
+other = "posts"
 
 [home]
-other = "Home"
+other = "home"
 
 [notFound]
 other = "Oops, page not found…"
