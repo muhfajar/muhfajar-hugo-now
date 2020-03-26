@@ -5,8 +5,12 @@
             <div class="posts-type">
                 <div class="posts-type__inner">
                     <div class="posts-type__content">
-                        <span><a href="../tags/">{{ i18n "postTags" }}</a></span>
-                        <span><a href="../categories/">{{ i18n "postCategories" }}</a></span>
+                        {{ if not (in .URL "categories") }}
+                            <span><a href="../categories/">{{ i18n "postCategories" }}</a></span>
+                        {{ end }}
+                        {{ if not (in .URL "tags")  }}
+                            <span><a href="../tags/">{{ i18n "postTags" }}</a></span>
+                        {{ end }}
                     </div>
                 </div>
             </div>
