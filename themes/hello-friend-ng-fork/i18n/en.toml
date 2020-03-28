@@ -6,6 +6,9 @@
 [translations]
 other = "Translations"
 
+[translationId]
+other = "id"
+
 [postAvailable]
 other = "Also available in"
 
@@ -17,6 +20,9 @@ other = "Tags"
 
 [postCategories]
 other = "Categories"
+
+[postTranslations]
+other = "Change Language"
 
 [about]
 other = "about"
@@ -30,6 +36,20 @@ other = "résumé"
 [source]
 other = "source code"
 
+[changeTheme]
+other = "Toggle theme color"
+
+[changeLang]
+other = "Use Bahasa"
+
+[changeFontFace]
+other = "Change font face"
+
+[increaseFontSize]
+other = "Increase font size"
+
+[decreaseFontSize]
+other = "Decrease font size"
 
 # 404.html
 #

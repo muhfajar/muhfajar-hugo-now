@@ -6,6 +6,9 @@
 [translations]
 other = "Terjemahan"
 
+[translationId]
+other = "en"
+
 [postAvailable]
 other = "Juga tersedia dalam"
 
@@ -17,6 +20,9 @@ other = "Tag"
 
 [postCategories]
 other = "Kategori"
+
+[postTranslations]
+other = "Ganti Bahasa"
 
 [about]
 other = "tentang"
@@ -30,6 +36,20 @@ other = "resume"
 [source]
 other = "kode sumber"
 
+[changeTheme]
+other = "Beralih warna tema"
+
+[changeLang]
+other = "Pergunakan bahasa Inggris"
+
+[changeFontFace]
+other = "Ubah jenis font"
+
+[increaseFontSize]
+other = "Tambah ukuran font"
+
+[decreaseFontSize]
+other = "Kurangi ukuran font"
 
 # 404.html
 #

@@ -196,12 +196,29 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   padding: 50px;
   @media #{$media-size-phone} {
     width: 80%;
   }
   @media #{$media-size-tablet} {
     width: 90%;
+  }
+}
+
+.setting-button {
+  background: $light-background;
+  margin-left: -20px;
+
+  .dark-theme & {
+    background: $dark-background;
+  }
+}
+
+.setting-toggle {
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
   }
 }

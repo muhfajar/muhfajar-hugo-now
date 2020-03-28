@@ -17,6 +17,12 @@ $dark-border-color: #4a4b50;
 $media-size-phone: "(max-width: 684px)";
 $media-size-tablet: "(max-width: 900px)";
 
+/* font face */
+//$font-face: 'Inter UI';
+//$font-face: 'JetBrains Mono';
+$font-face-mono: 'Source Code Pro';
+$font-face-normal: 'Inter UI';
+
 /* variables for js, must be the same as these in @custom-media queries */
 :root {
   --phoneWidth: (max-width: 684px);

@@ -3,11 +3,13 @@ set -e
 
 printf "\033[0;32mGenerating static page...\033[0m\n"
 
-hugo --minify
+hugo --minify --cleanDestinationDir --gc
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 cd public
+
+echo "muhfajar.id\c" > CNAME
 
 git add .
 

@@ -1,7 +1,7 @@
 baseURL = "https://muhfajar.id"
 title   = "Muhamad Fajar"
 
-DefaultContentLanguage = "id"
+DefaultContentLanguage = "en"
 
 theme = "hello-friend-ng-fork"
 
@@ -60,7 +60,7 @@ disableHugoGeneratorInject = false
   keywords    = "muhamad fajar"
   images      = [""]
 
-  homeSubtitle = "---"
+  homeSubtitle = "- muhfajar.id -"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
    gitUrl = "https://github.com/muhfajar/muhfajar.id/commit/"
@@ -117,15 +117,13 @@ disableHugoGeneratorInject = false
     url  = "https://www.stackoverflow.com/users/5580766/fajar"
 
 [languages]
-  [languages.id]
-    subtitle  = "muhfajar.id"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.id" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
   [languages.en]
-    subtitle  = "muhfajar.id"
-    weight    = 2
+    weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.id]
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/deed.id" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
@@ -139,4 +137,4 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "resume"
     name       = "resume"
-    url        = "résumé"
+    url        = "resume"

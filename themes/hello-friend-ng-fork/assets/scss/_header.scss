@@ -30,7 +30,7 @@
   }
 }
 
-.theme-toggle {
+.settings-menu {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +38,13 @@
   cursor: pointer;
 }
 
-.theme-toggler {
+.setting-menu {
+  fill: currentColor;
+  width: 1.1rem;
+  margin: 1px;
+}
+
+.icon-svg {
   fill: currentColor;
 }
 

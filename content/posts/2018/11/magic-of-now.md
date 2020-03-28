@@ -6,12 +6,12 @@ title: Magic of Now
 slug: magic-of-now
 categories:
     - tech
-    - cloud
 type:
     - post
     - posts
 tags:
     - cloud
     - tech
+    - now
 draft: true
 ---

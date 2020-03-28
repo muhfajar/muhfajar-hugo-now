@@ -5,8 +5,6 @@ date: 2018-10-25T12:52:59+07:00
 title: Playing in Ruby Field
 slug: playing-in-ruby-field
 categories:
-    - ruby
-    - programing language
     - tech
 type:
     - post
@@ -14,9 +12,10 @@ type:
 tags:
     - ruby
     - tech
+    - programing language
 series:
     - Ruby
-draft: false
+draft: true
 ---
 
 I started as Ruby dev in my new job, previously I worked as PHP and Python dev and I found Ruby is slightly different sometimes especially with PHP. First time I read Ruby documentation, Ruby syntax is familiar, that looks like Python with some additional word every end of a function. For example:

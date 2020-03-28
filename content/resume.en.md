@@ -5,8 +5,6 @@ date: 2018-10-09T18:30:21-07:00
 title: Résumé
 aliases:
     - résumé
-    - /en/résumé
-    - /en/resume
 draft: false
 tags:
     - fajar
@@ -66,13 +64,13 @@ Programming Languages & Framework
 :   **Django:** This framework is like my deadline friend, almost all side project
     what I was done is using [Django][django], when I only have limited time in a
     weekend, I need something that I can count on and Django is the answer. Using
-    this framework I can cut off timeline from 3 months of work to only 1 month. 
+    this framework I can cut off timeline from 3 months of work to only 1 month.
 
 :   **Go:** The journey began when I need something fast; fast in development and
     also fast in processing external API. I'm using Go relatively still very new,
     but so far so good, I can easily understand using this programing language.
 
-:   Basic knowledge of **[Rust][rust]**, **[Polymer][polymer]**, **[Vue.js][vue]**, **[React.js][react]**
+:   Basic knowledge of **[Rust][rust]**, **[Polymer][polymer]**, **[Vue][vue]**, **[React][react]**
 
 Open Source Projects
 
@@ -94,8 +92,6 @@ Side Project
 :   Less than 2 months of work.
 
     * **[Dapur Coklat App](http://dapurcokelat.com)**; Backend developer
-
-[ref]: https://github.com/githubuser/superlongprojectname
 
 Misc
 ----

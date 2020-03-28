@@ -1,16 +1,19 @@
 {{ define "main" }}
     <main class="posts">
         <div class="posts-info">
-            <h1>{{ i18n "postTitle" }}</h1>
+            <h1><a href="../posts/">{{- if in .URL "categories" -}}{{ i18n "postCategories" }}{{- else if (in .URL "tags") -}}{{ i18n "postTags" }}{{- else -}}{{ i18n "postTitle" }}{{- end -}}</a></h1>
             <div class="posts-type">
                 <div class="posts-type__inner">
                     <div class="posts-type__content">
-                        {{ if not (in .URL "categories") }}
+                        {{- if not (in .URL "categories") -}}
                             <span><a href="../categories/">{{ i18n "postCategories" }}</a></span>
-                        {{ end }}
-                        {{ if not (in .URL "tags")  }}
+                        {{- end -}}
+                        {{- if not (in .URL "tags")  -}}
                             <span><a href="../tags/">{{ i18n "postTags" }}</a></span>
-                        {{ end }}
+                        {{- end -}}
+                        {{- range .Translations -}}
+                            <span><a href="{{ .Permalink }}">{{ i18n "postTranslations" }}</a></span>
+                        {{- end -}}
                     </div>
                 </div>
             </div>

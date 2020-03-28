@@ -14,8 +14,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
+  font-family: $font-face-mono, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
   font-display: auto;
+  font-weight: 400;
   font-size: .85rem;
   line-height: 1.54;
   background-color: $light-background;
@@ -37,6 +38,10 @@ body {
   &.dark-theme {
     background-color: $dark-background;
     color: $dark-color;
+  }
+
+  &.normal-font {
+    font-family: $font-face-normal, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
   }
 }
 
@@ -325,7 +330,6 @@ hr {
 	text-decoration: none;
 	z-index: 100000;
 }
-
 
 @media print {
   body {

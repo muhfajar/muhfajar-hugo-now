@@ -1,6 +1,6 @@
 ---
 author:
-  name: "Hugo Authors"
+  name: Hugo Authors
 date: 2014-03-10
 linktitle: Migrating from Jekyll
 title: Migrate to Hugo from Jekyll
@@ -12,9 +12,10 @@ series:
     - Hugo 101
 tags:
     - development
-categories:
     - hugo
+categories:
     - development
+toc: true
 ---
 
 ## Move static content to `static`
