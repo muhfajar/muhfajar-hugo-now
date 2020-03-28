@@ -284,6 +284,12 @@ hr {
   display: none;
 }
 
+.hide-on-desktop {
+  @media #{$media-size-desktop} {
+    display: none;
+  }
+}
+
 .hide-on-phone {
   @media #{$media-size-phone} {
     display: none;

@@ -4,5 +4,6 @@
         {{ range .Site.Menus.main -}}
             <li><a href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a></li>
         {{- end }}
+        <li class="hide-on-desktop"><a href="/{{ i18n "translationId" }}/settings/">settings</a></li>
     </ul>
 </nav>

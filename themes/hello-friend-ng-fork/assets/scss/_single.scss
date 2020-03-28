@@ -199,10 +199,10 @@
   width: 40%;
   padding: 50px;
   @media #{$media-size-phone} {
-    width: 80%;
+    width: 100%;
   }
   @media #{$media-size-tablet} {
-    width: 90%;
+    width: 60%;
   }
 }
 
