@@ -1,14 +1,14 @@
----
-author:
-    name: Muhamad Fajar
-date: 2018-10-09T18:30:21-07:00
-title: Resume
-aliases:
-    - résumé
-draft: false
-tags:
-    - fajar
----
++++
+aliases = ["résumé"]
+date = "2018-10-09T18:30:21-07:00"
+draft = false
+tags = ["fajar"]
+title = "Resume"
+
+[author]
+  name = "Muhamad Fajar"
+
++++
 
 Muhamad Fajar
 -------------

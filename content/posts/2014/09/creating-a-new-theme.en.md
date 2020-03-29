@@ -1,22 +1,18 @@
----
-author:
-  name: Michael Henderson
-date: 2014-09-28
-linktitle: Creating a New Theme
-type:
-    - post
-    - posts
-title: Creating a New Theme
-weight: 10
-series:
-    - Hugo 101
-categories:
-    - development
-tags:
-    - development
-    - hugo
-toc: true
----
++++
+categories = ["development"]
+date = "2014-09-28"
+linktitle = "Creating a New Theme"
+series = ["Hugo 101"]
+tags = ["development", "hugo"]
+title = "Creating a New Theme"
+toc = true
+type = ["post", "posts"]
+weight = 10
+
+[author]
+  name = "Michael Henderson"
+
++++
 
 ## Introduction
 

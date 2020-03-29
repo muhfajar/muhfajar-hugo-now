@@ -1,17 +1,14 @@
----
-author:
-    name: Muhamad Fajar
-date: 2018-10-09T18:30:21-07:00
-title: Tentang Saya
-aliases:
-    - about
-    - about-us
-    - about-me
-    - contact
-draft: true
-tags:
-    - fajar
----
++++
+aliases = ["about", "about-us", "about-me", "contact"]
+date = "2018-10-09T18:30:21-07:00"
+draft = true
+tags = ["fajar"]
+title = "Tentang Saya"
+
+[author]
+  name = "Muhamad Fajar"
+
++++
 
 His name is Muhamad Fajar. Software engineer from Indonesia. On day-by-day his using technology stack such as Go, Python, Ruby or you can see more on him [résumé](/resume) page.
 

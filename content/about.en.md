@@ -1,17 +1,14 @@
----
-author:
-    name: Muhamad Fajar
-date: 2018-10-09T18:30:21-07:00
-title: About Me
-aliases:
-    - about
-    - about-us
-    - about-me
-    - contact
-draft: true
-tags:
-    - fajar
----
++++
+aliases = ["about", "about-us", "about-me", "contact"]
+date = "2018-10-09T18:30:21-07:00"
+draft = true
+tags = ["fajar"]
+title = "About Me"
+
+[author]
+  name = "Muhamad Fajar"
+
++++
 
 Hi, my name is Muhamad Fajar, software engineer from Indonesia. On day-by-day I'm using technology stack like Go, Python, Ruby or you can see more on my [résumé](/resume) page.
 
