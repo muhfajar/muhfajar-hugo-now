@@ -1,9 +1,11 @@
 // Toggle theme
 const getTheme = window.localStorage && window.localStorage.getItem("theme");
 const themeToggle = document.querySelector(".theme-toggle");
+const themeToggleText = document.querySelector("#theme-toggle-button");
 const isDark = getTheme === "dark";
 const metaThemeColor = document.querySelector("meta[name=theme-color]");
 const homepageImage = document.querySelector("#homepage-image");
+const notFoundImage = document.querySelector("#notfound-image");
 
 // Toggle font
 const getFont = window.localStorage && window.localStorage.getItem("font");
@@ -19,7 +21,10 @@ let fontSize = parseFloat(getFontSize) || 0.85;
 
 const invertImgColor = () => {
   if (homepageImage) {
-    document.body.classList.contains("dark-theme") ? homepageImage.src = "/img-home/light.png" : homepageImage.src = "/img-home/dark.png";
+    document.body.classList.contains("dark-theme") ? homepageImage.src = "/assets/img/light.png" : homepageImage.src = "/assets/img/dark.png";
+  }
+  if (notFoundImage) {
+    document.body.classList.contains("dark-theme") ? notFoundImage.src = "/assets/img/404-light.png" : notFoundImage.src = "/assets/img/404-dark.png";
   }
 };
 
@@ -27,10 +32,12 @@ if (getTheme !== null) {
   document.body.classList.toggle("dark-theme", isDark);
   if (isDark) {
     metaThemeColor.setAttribute("content", "#252627");
-    invertImgColor();
+    themeToggleText.textContent = buttonTextDark;
+    // invertImgColor();
   } else {
     metaThemeColor.setAttribute("content", "#fafafa");
-    invertImgColor();
+    themeToggleText.textContent = buttonTextLight;
+    // invertImgColor();
   }
 }
 
@@ -50,6 +57,7 @@ themeToggle.addEventListener("click", () => {
       document.body.classList.contains("dark-theme") ? "dark" : "light",
     );
   document.body.classList.contains("dark-theme") ? metaThemeColor.setAttribute("content", "#252627") : metaThemeColor.setAttribute("content", "#fafafa");
+  document.body.classList.contains("dark-theme") ? themeToggleText.textContent = buttonTextDark : themeToggleText.textContent = buttonTextLight;
 });
 
 fontToggle.addEventListener("click", () => {

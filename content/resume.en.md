@@ -56,7 +56,7 @@ Technical Experience
 Programming Languages & Framework
 
 :   **Ruby:** I began using Ruby is when I started working at [Lokét][loket].
-    From that day I have only 2 days before my very first task using Ruby itself.
+    From that day I have only 3 days before my very first task using Ruby itself.
     The first task is creating API for deep-linking event categorized, fortunately
     with very limited knowledge about Ruby and never touched that language before,
     thank God, I'm not breaking the legacy code.
@@ -70,7 +70,7 @@ Programming Languages & Framework
     also fast in processing external API. I'm using Go relatively still very new,
     but so far so good, I can easily understand using this programing language.
 
-:   Basic knowledge of **[Rust][rust]**, **[Polymer][polymer]**, **[Vue][vue]**, **[React][react]**
+:   Basic knowledge of [Rust][rust], [Polymer][polymer], [Vue][vue], [React][react]
 
 Open Source Projects
 
@@ -86,12 +86,12 @@ Side Project
 
 :   Less than 1 month of work.
 
-    * **[Brilcrist](http://brilcrist.com)**; Backend developer, infra (Docker, domain, etc)   
-    * **[Journal JPMF STIFA Makasar](http://www.jpms-stifa.com/index.php/jpms)**; Full-stack engineer
+    * [Brilcrist](http://brilcrist.com); Backend developer, infra (Docker, domain, etc)   
+    * [Journal JPMF STIFA Makasar](http://www.jpms-stifa.com/index.php/jpms); Full-stack engineer
     
 :   Less than 2 months of work.
 
-    * **[Dapur Coklat App](http://dapurcokelat.com)**; Backend developer
+    * [Dapur Coklat App](http://dapurcokelat.com); Backend developer
 
 Misc
 ----

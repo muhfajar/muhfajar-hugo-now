@@ -3,6 +3,9 @@
 
 # Generic
 #
+[redirecting]
+other = "Redirecting..."
+
 [translations]
 other = "Translations"
 
@@ -27,8 +30,8 @@ other = "Change Language"
 [about]
 other = "about"
 
-[posts]
-other = "posts"
+[id]
+other = "muhfajar.id"
 
 [resume]
 other = "résumé"
@@ -36,11 +39,17 @@ other = "résumé"
 [source]
 other = "source code"
 
-[changeTheme]
-other = "Toggle theme color"
+[changeThemeLight]
+other = "Toggle theme to dark"
+
+[changeThemeDark]
+other = "Toggle theme to light"
 
 [changeLang]
 other = "Use Bahasa"
+
+[hideToc]
+other = "Hide table of content"
 
 [changeFontFace]
 other = "Change font face"

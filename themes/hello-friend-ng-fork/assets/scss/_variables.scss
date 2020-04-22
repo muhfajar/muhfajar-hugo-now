@@ -19,9 +19,8 @@ $media-size-tablet: "(min-width: 768px) and (max-width: 1024px)";
 $media-size-desktop: "(min-width: 1025px)";
 
 /* font face */
-//$font-face: 'Inter UI';
-//$font-face: 'JetBrains Mono';
-$font-face-mono: 'Source Code Pro';
+$font-face-mono: 'JetBrains Mono';
+//$font-face-mono: 'Source Code Pro';
 $font-face-normal: 'Inter UI';
 
 /* variables for js, must be the same as these in @custom-media queries */

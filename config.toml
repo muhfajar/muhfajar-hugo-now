@@ -1,4 +1,4 @@
-baseURL = "https://muhfajar.id"
+baseURL = "https://muhfajar.blog"
 title   = "Muhamad Fajar"
 
 DefaultContentLanguage = "en"
@@ -60,10 +60,10 @@ disableHugoGeneratorInject = false
   keywords    = "muhamad fajar"
   images      = [""]
 
-  homeSubtitle = "- muhfajar.id -"
+  homeSubtitle = "- muhfajar.blog -"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-   gitUrl = "https://github.com/muhfajar/muhfajar.id/commit/"
+   gitUrl = "https://github.com/muhfajar/blog/commit/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = true
@@ -90,7 +90,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "$ cd /home/"
+    logoText     = "$ cd /root/"
     logoHomeLink = "../"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -131,9 +131,9 @@ disableHugoGeneratorInject = false
     name       = "about"
     url        = "about"
   [[menu.main]]
-    identifier = "posts"
-    name       = "posts"
-    url        = "posts"
+    identifier = "id"
+    name       = "id"
+    url        = "https://muhfajar.id/"
   [[menu.main]]
     identifier = "resume"
     name       = "resume"

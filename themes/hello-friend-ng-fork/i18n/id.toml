@@ -3,6 +3,9 @@
 
 # Generic
 #
+[redirecting]
+other = "Mengarahkan..."
+
 [translations]
 other = "Terjemahan"
 
@@ -27,8 +30,8 @@ other = "Ganti Bahasa"
 [about]
 other = "tentang"
 
-[posts]
-other = "tulisan"
+[id]
+other = "muhfajar.id"
 
 [resume]
 other = "resume"
@@ -36,11 +39,17 @@ other = "resume"
 [source]
 other = "kode sumber"
 
-[changeTheme]
-other = "Beralih warna tema"
+[changeThemeLight]
+other = "Beralih ke tema gelap"
+
+[changeThemeDark]
+other = "Beralih ke tema terang"
 
 [changeLang]
-other = "Pergunakan bahasa Inggris"
+other = "Pergunakan Bahasa Inggris"
+
+[hideToc]
+other = "Sembunyikan daftar isi"
 
 [changeFontFace]
 other = "Ubah jenis font"

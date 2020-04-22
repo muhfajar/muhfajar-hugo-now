@@ -1,7 +1,7 @@
 {{ define "main" }}
     <main class="posts">
         <div class="posts-info">
-            <h1><a href="../posts/">{{- if in .URL "categories" -}}{{ i18n "postCategories" }}{{- else if (in .URL "tags") -}}{{ i18n "postTags" }}{{- else -}}{{ i18n "postTitle" }}{{- end -}}</a></h1>
+            <h1><a href="../posts">{{- if in .URL "categories" -}}{{ i18n "postCategories" }}{{- else if (in .URL "tags") -}}{{ i18n "postTags" }}{{- else -}}{{ i18n "postTitle" }}{{- end -}}</a></h1>
             <div class="posts-type">
                 <div class="posts-type__inner">
                     <div class="posts-type__content">

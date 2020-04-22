@@ -2,10 +2,10 @@
     {{ if .Site.Params.Logo.path }}
         <img src="{{ .Site.Params.Logo.path }}" alt="{{ .Site.Params.Logo.alt }}" />
     {{ else }}
-        <a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL }}{{ end }}" style="text-decoration: none;">
+        <a href="../" style="text-decoration: none;">
             <span class="logo__mark">></span>
         </a>
-        <a href="../" style="text-decoration: none;">
+        <a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL }}{{ end }}posts" style="text-decoration: none;">
             <span class="logo__text">{{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>
             <span class="logo__cursor" style=
                   "{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}

@@ -57,7 +57,7 @@ Pengalaman Teknis
 Bahasa Pemograman & Framework
 
 :   **Ruby:** Saya mulai menggunakan Ruby ketika saya mulai bekerja di [Lokét][loket].
-    Sejak hari itu saya hanya punya 2 hari sebelum tugas pertama saya menggunakan
+    Sejak hari itu saya hanya punya 3 hari sebelum tugas pertama saya menggunakan
     Ruby itu sendiri. Tugas pertama adalah membuat API untuk **event deep-linking**
     yang dikategorikan, untungnya dengan pengetahuan yang sangat terbatas tentang
     Ruby dan tidak pernah menyentuh bahasa itu sebelumnya, terima kasih Tuhan, saya
@@ -74,7 +74,7 @@ Bahasa Pemograman & Framework
     Go relatif masih sangat baru, tapi sejauh ini bagus, saya dapat dengan mudah
     memahami menggunakan bahasa pemrograman ini.
 
-:   Pengetahuan dasar tentang **[Rust][rust]**, **[Polymer][polymer]**, **[Vue][vue]**, **[React][react]**
+:   Pengetahuan dasar tentang [Rust][rust], [Polymer][polymer], [Vue][vue], [React][react]
 
 Proyek Sumber Terbuka
 
@@ -90,12 +90,12 @@ Proyek Sampingan
 
 :   Kurang dari 1 bulan kerja.
 
-    * **[Brilcrist](http://brilcrist.com)**; Backend developer, infra (Docker, domain, etc)   
-    * **[Journal JPMF STIFA Makasar](http://www.jpms-stifa.com/index.php/jpms)**; Full-stack engineer
+    * [Brilcrist](http://brilcrist.com); Backend developer, infra (Docker, domain, etc)   
+    * [Journal JPMF STIFA Makasar](http://www.jpms-stifa.com/index.php/jpms); Full-stack engineer
     
 :   Kurang dari 2 bulan kerja.
 
-    * **[Dapur Coklat App](http://dapurcokelat.com)**; Backend developer
+    * [Dapur Coklat App](http://dapurcokelat.com); Backend developer
 
 Lain-lain
 ---------

@@ -3,25 +3,40 @@ aliases = ["about", "about-us", "about-me", "contact"]
 date = "2018-10-09T18:30:21-07:00"
 draft = true
 tags = ["fajar"]
-title = "About Me"
+title = "Short Story About Me"
+toc = "true"
 
 [author]
   name = "Muhamad Fajar"
 
 +++
 
-Hi, my name is Muhamad Fajar, software engineer from Indonesia. On day-by-day I'm using technology stack like Go, Python, Ruby or you can see more on my [résumé](/resume) page.
+## Part one, me as who owns this website
+
+Hello! I'm **Muhamad Fajar**, a software engineer from Indonesia. I currently work as a tech lead for _GoTix_ at _Lokét_, previously venturing at _SoftwareSeni_ and _Talenesia_. On my daily --developer-activity-- I'm using Go, Python, Ruby or other.
 
 {{< polaroid src="/img/fajar.jpeg" alt="Muhamad Fajar" caption="Ruby Conf" position="right" >}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nibh non orci consequat pretium id quis sem. Nulla ultrices tincidunt volutpat. Morbi lacinia ex in felis euismod, et aliquet purus sodales. In malesuada justo sagittis, convallis augue ac, consectetur neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean sollicitudin, nisl ut ullamcorper aliquam, mi sapien bibendum lorem, ut viverra neque metus id libero. Nullam viverra nibh et egestas tincidunt. Etiam vestibulum eros faucibus, tristique ante a, iaculis mi. Donec auctor placerat nisl, id tincidunt nisi bibendum sed.
+### Tales of Programing Language
 
-Fusce tempus metus ac eleifend vestibulum. Etiam tempor porta sem vel fermentum. Sed tristique in quam eu eleifend. Mauris finibus sit amet orci non ultrices. Quisque orci ipsum, consectetur a justo in, ultrices ornare mi. Maecenas sit amet nisl id massa dignissim porta. Cras mollis malesuada lorem, et tempor leo placerat sit amet. Suspendisse velit sem, scelerisque nec fringilla at, commodo vel turpis. Duis eleifend volutpat massa eu tristique. Vivamus pharetra augue ac sapien mollis pellentesque. Suspendisse purus velit, accumsan quis diam quis, consequat sodales sapien. Integer malesuada est a sapien accumsan blandit. Nulla vitae mi viverra metus pharetra placerat. Morbi vehicula sapien sit amet dolor cursus, et ultrices lorem hendrerit. Nulla convallis molestie tellus, maximus tempor orci tristique in.
+**-- _Python_; Accidentally in Love --** I knew _Python_ not because 
+
+**-- The journey with _Ruby_ --** I began to know _Ruby_ when I started working at _Lokét_. From that day I have only 3 days before my very first task using _Ruby_ itself. The first task is creating API for deep-linking event categorized, fortunately with very limited knowledge about _Ruby_ and never touched that language before, thank God, I'm not breaking the legacy code.
+
+The journey began when I need something fast; fast in development and also fast in processing external API. I'm using Go relatively still very new, but so far so good, I can easily understand using this programing language.
+
+I also love using _Django_. This framework is like my deadline friend,
+almost all side project what I was done is using Django, when I only
+have limited time in a weekend, I need something that I can count on
+and Django is the answer. Using this framework I can cut off timeline
+from 3 months of work to only 1 month.
+
+I also contribute to open source project, mostly contribution because I'm
+using that lib/app but getting error when compile or running and also adding
+new localization.
+
+* [django-fcm](https://github.com/Chitrank-Dixit/django-fcm)
+* [django-indonesia-regions](https://github.com/Keda87/django-indonesia-regions)
+* [Arc-Menu](https://github.com/lexruee/Arc-Menu)
 
 {{< polaroid src="/img/ninja.jpg" alt="Muhamad Fajar" caption="Ninja" position="left" >}}
-
-Donec semper gravida eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vitae quam nec eros feugiat egestas vitae a felis. Sed vulputate auctor elementum. Quisque egestas ipsum et elit semper, id bibendum neque dictum. In odio orci, pretium ac leo id, pulvinar porttitor felis. Curabitur finibus, nibh nec suscipit egestas, ex lorem viverra magna, et commodo nunc nisl a lacus. Nullam quis viverra arcu.
-
-Aliquam tincidunt massa mauris, commodo ullamcorper ligula faucibus et. Donec malesuada tincidunt felis, ac porttitor lacus condimentum eu. Etiam et nulla ex. Integer mauris elit, vehicula eu magna sed, lacinia finibus tellus. Suspendisse nulla mauris, egestas non lorem et, commodo aliquet lacus. Maecenas dictum quis mi sed molestie. Ut malesuada et dui vel varius. In hac habitasse platea dictumst. Nunc ac mauris eget diam sagittis vulputate id at ante. Vestibulum viverra eu leo vel bibendum. Cras a enim in risus sodales ornare in et nisi. Pellentesque lacinia leo eu turpis semper egestas.
-
-Ut malesuada lectus vitae mauris finibus venenatis sed sed magna. Nunc efficitur interdum massa, ultricies sollicitudin eros pharetra ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum tellus augue, eu condimentum nisl ullamcorper ut. Sed lobortis porta nunc, sit amet volutpat nisi congue sed. Praesent non metus massa. Etiam accumsan arcu a semper sagittis. Duis tempor mauris dui, at porttitor turpis gravida at.
