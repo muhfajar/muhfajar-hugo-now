@@ -31,7 +31,10 @@ other = "Change Language"
 other = "about"
 
 [id]
-other = "muhfajar.id"
+other = "home"
+
+[blog]
+other = "blog"
 
 [resume]
 other = "résumé"

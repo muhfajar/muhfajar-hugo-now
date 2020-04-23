@@ -31,7 +31,10 @@ other = "Ganti Bahasa"
 other = "tentang"
 
 [id]
-other = "muhfajar.id"
+other = "beranda"
+
+[blog]
+other = "blog"
 
 [resume]
 other = "resume"
