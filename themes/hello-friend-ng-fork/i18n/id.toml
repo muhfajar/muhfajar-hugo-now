@@ -33,6 +33,9 @@ other = "tentang"
 [id]
 other = "beranda"
 
+[contact]
+other = "kontak"
+
 [blog]
 other = "blog"
 

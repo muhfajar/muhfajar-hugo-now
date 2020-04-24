@@ -131,6 +131,10 @@ disableHugoGeneratorInject = false
     name       = "id"
     url        = "https://muhfajar.id/"
   [[menu.main]]
+    identifier = "contact"
+    name       = "contact"
+    url        = "https://muhfajar.id/#contact"
+  [[menu.main]]
     identifier = "blog"
     name       = "blog"
     url        = "https://muhfajar.blog/"
