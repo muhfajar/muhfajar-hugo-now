@@ -10,7 +10,7 @@ other = "Redirecting..."
 other = "Translations"
 
 [translationId]
-other = "id"
+other = "en"
 
 [postAvailable]
 other = "Also available in"
