@@ -1,4 +1,4 @@
-baseURL = "https://muhfajar.blog"
+baseURL = "https://muhfajar.blog/"
 title   = "Muhamad Fajar"
 
 DefaultContentLanguage = "en"

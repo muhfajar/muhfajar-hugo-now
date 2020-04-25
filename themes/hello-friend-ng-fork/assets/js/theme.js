@@ -49,6 +49,10 @@ if (getTheme !== null) {
         }
         // invertImgColor();
     }
+} else {
+    if (window.location.href.indexOf("settings") > -1) {
+        themeToggleText.textContent = buttonTextLight;
+    }
 }
 
 if (getFont !== null) {
@@ -72,6 +76,10 @@ if (getToc !== null) {
         if (window.location.href.indexOf("settings") > -1) {
             tocToggleText.textContent = buttonTextTocShow;
         }
+    }
+} else {
+    if (window.location.href.indexOf("settings") > -1) {
+        tocToggleText.textContent = buttonTextTocShow;
     }
 }
 
