@@ -9,7 +9,10 @@ other = "Mengarahkan..."
 [translations]
 other = "Terjemahan"
 
-[translationId]
+[translationToggle]
+other = "en"
+
+[translationLink]
 other = "id"
 
 [postAvailable]
@@ -45,6 +48,9 @@ other = "resume"
 [source]
 other = "kode sumber"
 
+[settings]
+other = "pengaturan"
+
 [changeThemeLight]
 other = "Beralih ke tema gelap"
 
@@ -55,6 +61,9 @@ other = "Beralih ke tema terang"
 other = "Pergunakan Bahasa Inggris"
 
 [hideToc]
+other = "Tampilkan daftar isi"
+
+[showToc]
 other = "Sembunyikan daftar isi"
 
 [changeFontFace]

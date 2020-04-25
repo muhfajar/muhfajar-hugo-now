@@ -1,7 +1,7 @@
 <span class="setting-toggle unselectable">
     <button class="setting-button theme-toggle">{{ partial "icons/theme-icon.html" . }} &nbsp;&nbsp; <div id="theme-toggle-button"></div></button>
-    <a href="/{{ i18n "translationId" }}/settings/"><button class="setting-button">{{ partial "icons/lang-icon.html" . }} &nbsp; {{ i18n "changeLang" }}</button></a>
-<!--    <button class="setting-button toc-toggle">{{ partial "icons/erase-icon.html" . }} &nbsp; {{ i18n "hideToc" }}</button>-->
+    <a href="/{{ i18n "translationToggle" }}/settings/"><button class="setting-button">{{ partial "icons/lang-icon.html" . }} &nbsp; {{ i18n "changeLang" }}</button></a>
+    <button class="setting-button toc-toggle">{{ partial "icons/erase-icon.html" . }}  &nbsp;&nbsp; <div id="toc-toggle-button"></div></button>
     <button class="setting-button font-toggle">{{ partial "icons/font-icon.html" . }} &nbsp; {{ i18n "changeFontFace" }}</button>
     <button class="setting-button increase-font-size">{{ partial "icons/increase-icon.html" . }} &nbsp; {{ i18n "increaseFontSize" }}</button>
     <button class="setting-button decrease-font-size">{{ partial "icons/decrease-icon.html" . }} &nbsp; {{ i18n "decreaseFontSize" }}</button>
@@ -10,4 +10,6 @@
 <script type="text/javascript">
     const buttonTextDark = '{{ i18n "changeThemeDark" }}';
     const buttonTextLight = '{{ i18n "changeThemeLight" }}';
+    const buttonTextTocHide = '{{ i18n "hideToc" }}';
+    const buttonTextTocShow = '{{ i18n "showToc" }}';
 </script>

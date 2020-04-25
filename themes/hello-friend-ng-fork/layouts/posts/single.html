@@ -20,12 +20,14 @@
             </h1>
 
             {{- if .Params.toc }}
-                <hr />
-                <aside id="toc">
-                <div class="toc-title">{{ i18n "tableOfContents" }}</div>
-                    {{ .TableOfContents }}
-                </aside>
-                <hr />
+                <div id="toc-container">
+                    <hr />
+                    <aside id="toc">
+                    <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+                        {{ .TableOfContents }}
+                    </aside>
+                    <hr />
+                </div>
             {{- end }}
 
             {{ with .Params.Cover }}

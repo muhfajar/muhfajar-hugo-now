@@ -9,7 +9,10 @@ other = "Redirecting..."
 [translations]
 other = "Translations"
 
-[translationId]
+[translationToggle]
+other = "id"
+
+[translationLink]
 other = "en"
 
 [postAvailable]
@@ -45,6 +48,9 @@ other = "résumé"
 [source]
 other = "source code"
 
+[settings]
+other = "settings"
+
 [changeThemeLight]
 other = "Toggle theme to dark"
 
@@ -55,6 +61,9 @@ other = "Toggle theme to light"
 other = "Use Bahasa"
 
 [hideToc]
+other = "Show table of content"
+
+[showToc]
 other = "Hide table of content"
 
 [changeFontFace]

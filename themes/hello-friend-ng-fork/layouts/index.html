@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ i18n "redirecting" }}
 <script>
-    window.location = "{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL }}{{ end }}posts";
+    window.location = "{{ .Site.BaseURL }}/posts/";
 </script>
 {{ end }}
