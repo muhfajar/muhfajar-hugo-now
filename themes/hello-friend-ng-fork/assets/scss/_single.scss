@@ -53,6 +53,11 @@
       margin: 20px 0;
       width: 100%;
     }
+
+    @media #{$media-size-phone} {
+      margin: 20px 0;
+      width: 100%;
+    }
   }
 
   &-info {
