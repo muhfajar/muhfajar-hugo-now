@@ -33,8 +33,8 @@ Experience
 
 2016-2018
 
-:   **Software Engineer**; [SoftwareSeni][softwareseni] is a tightly
-    knit team of designers, developers, quality assurance, marketing, content
+:   **Software Engineer**; [SoftwareSeni][softwareseni] is a tightly-knit 
+    team of designers, developers, quality assurance, marketing, content
     strategy, and customer service.\
     *Employer: [PT. SoftwareSeni][softwareseni]*
 
@@ -65,7 +65,7 @@ Programming Languages & Framework
     weekend, I need something that I can count on and Django is the answer. Using
     this framework I can cut off timeline from 3 months of work to only 1 month.
 
-:   **Go:** The journey began when I need something fast; fast in development and
+:   **Go:** The journey began when I need something fast; fast in development or
     also fast in processing external API. I'm using Go relatively still very new,
     but so far so good, I can easily understand using this programing language.
 
@@ -74,7 +74,7 @@ Programming Languages & Framework
 Open Source Projects
 
 :   I also contribute to open source project, mostly contribution because I'm
-    using that lib/app but getting error when compile or running and also adding
+    using that lib/app but getting error when compile or running or also adding
     new localization.
     
     * [django-fcm](https://github.com/Chitrank-Dixit/django-fcm)

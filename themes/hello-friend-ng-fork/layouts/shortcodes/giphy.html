@@ -1,0 +1,5 @@
+{{ if .Get "src" }}
+<div class="giphy">
+    <iframe src="https://giphy.com/embed/{{ .Get "src" | safeURL }}" class="giphy__content" allowfullscreen scrolling="no" allow="encrypted-media"></iframe>
+</div>
+{{ end }}

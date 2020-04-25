@@ -34,8 +34,8 @@ Pengalaman
 
 2016-2018
 
-:   **Software Engineer**; [SoftwareSeni][softwareseni] is a tightly
-    knit team of designers, developers, quality assurance, marketing, content
+:   **Software Engineer**; [SoftwareSeni][softwareseni] is a tightly-knit
+    team of designers, developers, quality assurance, marketing, content
     strategy, and customer service.\
     *Employer: [PT. SoftwareSeni][softwareseni]*
 

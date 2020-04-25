@@ -1,6 +1,6 @@
 +++
 categories = ["etc"]
-date = "2018-10-24T08:30:23-05:00"
+date = "2017-10-24T08:30:23-05:00"
 draft = false
 series = ["ruby"]
 slug = "hello-world"
