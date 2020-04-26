@@ -1,6 +1,6 @@
 +++
 categories = ["freebies"]
-date = "2020-04-24T23:30:23-05:00"
+date = "2020-04-24T23:30:23+07:00"
 draft = true
 slug = "thank-you-html5up"
 tags = ["freebies", "template"]

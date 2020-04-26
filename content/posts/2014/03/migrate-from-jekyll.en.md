@@ -1,7 +1,6 @@
 +++
 categories = ["development"]
-date = "2014-03-10"
-linktitle = "Migrating from Jekyll"
+date = "2014-03-10T17:32:59+07:00"
 series = ["Hugo 101"]
 tags = ["development", "hugo"]
 title = "Migrate to Hugo from Jekyll"

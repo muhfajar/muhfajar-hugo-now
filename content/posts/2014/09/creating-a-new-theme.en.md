@@ -1,7 +1,6 @@
 +++
 categories = ["development"]
-date = "2014-09-28"
-linktitle = "Creating a New Theme"
+date = "2014-09-28T16:08:01+07:00"
 series = ["Hugo 101"]
 tags = ["development", "hugo"]
 title = "Creating a New Theme"

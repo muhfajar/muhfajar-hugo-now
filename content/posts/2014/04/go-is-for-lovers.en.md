@@ -1,6 +1,6 @@
 +++
 categories = ["development"]
-date = "2014-04-02"
+date = "2014-04-02T20:11:21+07:00"
 series = ["Hugo 101"]
 tags = ["go", "golang", "templates", "themes", "development"]
 title = "(Hu)go Template Primer"
