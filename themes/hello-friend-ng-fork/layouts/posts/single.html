@@ -19,6 +19,10 @@
                 <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
             </h1>
 
+            {{ with .Params.Cover }}
+                <img src="/img/posts/{{ . }}" class="post-cover" />
+            {{ end }}
+
             {{- if .Params.toc }}
                 <div id="toc-container">
                     <hr />
@@ -29,10 +33,6 @@
                     <hr />
                 </div>
             {{- end }}
-
-            {{ with .Params.Cover }}
-                <img src="/img/posts/{{ . }}" class="post-cover" />
-            {{ end }}
 
             <div class="post-content">
                 {{ .Content }}
