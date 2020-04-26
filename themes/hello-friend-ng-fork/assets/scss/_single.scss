@@ -227,3 +227,9 @@
     text-decoration: none;
   }
 }
+
+.toc-container {
+  .hide-toc & {
+    display: none;
+  }
+}
