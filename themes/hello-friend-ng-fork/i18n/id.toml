@@ -30,6 +30,9 @@ other = "Kategori"
 [postTranslations]
 other = "Lihat postingan dalam Bahasa Inggris"
 
+[postTranslationsMobile]
+other = "Ganti bahasa"
+
 [about]
 other = "tentang"
 

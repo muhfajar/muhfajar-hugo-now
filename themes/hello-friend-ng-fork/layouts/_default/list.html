@@ -12,7 +12,10 @@
                             <span><a href="../tags/">{{ i18n "postTags" }}</a></span>
                         {{- end -}}
                         {{- range .Translations -}}
-                            <span><a href="{{ .Permalink }}">{{ i18n "postTranslations" }}</a></span>
+                        <span><a href="{{ .Permalink }}">
+                            <span class="hide-on-phone hide-on-tablet">{{ i18n "postTranslations" }}</span>
+                            <span class="hide-on-desktop">{{ i18n "postTranslationsMobile" }}</span>
+                        </a></span>
                         {{- end -}}
                     </div>
                 </div>
