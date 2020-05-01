@@ -9,7 +9,8 @@ title = "Playing in Ruby Mine"
 type = ["post", "posts"]
 toc = false
 
-cover = "playing-in-ruby-mine.png"
+cover = "playing-in-ruby-mine.jpg"
+coverCredit = "https://hipwallpaper.com/view/IZMBfm"
 
 [author]
   name = "Muhamad Fajar"
