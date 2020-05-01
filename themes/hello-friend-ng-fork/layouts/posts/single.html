@@ -20,7 +20,9 @@
             </h1>
 
             {{ with .Params.Cover }}
-                <img src="/img/posts/{{ . }}" class="post-cover" />
+                <a href="/img/posts/{{ . }}" class="progressive replace post-cover">
+                    <img src="/img/posts/{{ . }}" alt="image" class="preview" />
+                </a>
             {{ end }}
 
             {{- if .Params.toc }}
