@@ -28,7 +28,7 @@ That's amazing.
 
 First thing, you need Vercel account, of course. Next, if you use one of
 the templates from this [list][template], congratulation, you only need
-execute `now` from project root, something like this.
+execute `now` from the project root, something like this.
 
 ```bash
 cd my_project
@@ -44,10 +44,10 @@ the Preview Deployment, this can be shared **immediately**.
 
 ## How to Use Cloudflare with Now
 
-Actually, Vercel have internal domain management, so you can directly buy
-domain inside Vercel dashboard. But if you want to set up domain setting
-using [Cloudflare][cloudflare] so you can set cache or other, this also
-simple. You just need register some DNS and encryption settings.
+Vercel have internal domain management, so you can directly buy domain inside
+Vercel dashboard. But if you want to set up domain setting using [Cloudflare][cloudflare]
+so you can set cache or other, this also simple. You just need register some
+DNS and encryption settings.
 
 ### Add DNS Records
 
@@ -69,8 +69,8 @@ now domains verify your-domain-name.com
 
 ### Make HTTPS Works
 
-In order to make https works you need change Cloudflare’s encryption mode
-to **Full (strict)** and then create page rules to make Enforce HTTPS
+To make https works you need change Cloudflare’s encryption mode to
+**Full (strict)** and then create page rules to make Enforce HTTPS
 for this domain:
 1.  Go to page "Create Page Rule"
 2.  Add new page rules with configuration like this:\
@@ -87,6 +87,7 @@ detect changes and make a deployment. For more information,jump up to
 [Vercel documentation][doc].
 
 End of word, yes, I'm using Now in my [personal website landing][fajar].
+Next: [Purge Cache with Git Hooks][cache].
 
 [vercel]: https://vercel.com/
 [template]: https://github.com/zeit/now/tree/master/examples
@@ -96,3 +97,4 @@ End of word, yes, I'm using Now in my [personal website landing][fajar].
 [bitbucket]: https://bitbucket.org/product/
 [doc]: https://vercel.com/docs/v2/git-integrations
 [fajar]: https://muhfajar.id/
+[cache]: https://muhfajar.blog/posts/purge-cache-with-git-hooks/
