@@ -2,13 +2,13 @@
 categories = ["tech"]
 date = "2018-11-25T04:52:59+07:00"
 draft = false
-slug = "deployment-using-now-and-cloudflare"
+slug = "deploying-now-with-cloudflare"
 tags = ["cloud", "tech", "now", "cloudflare"]
-title = "Deployment Using Now and Cloudflare"
+title = "Deploying Now With Cloudflare"
 type = ["post", "posts"]
 toc = false
 
-cover = "deployment-using-now-and-cloudflare.png"
+cover = "deploying-now-with-cloudflare.png"
 coverCredit = "https://assets.zeit.co/image/upload/v1581518533/repositories/now-cli/v4.png"
 
 [author]
@@ -39,6 +39,8 @@ That's it. For the rest let Now do the work.
 
 After your project has been deployed, you will be provided with a link to
 the Preview Deployment, this can be shared **immediately**.
+
+{{< giphy src="3og0IAQG2BtR13joe4" >}}
 
 ## How to Use Cloudflare with Now
 
