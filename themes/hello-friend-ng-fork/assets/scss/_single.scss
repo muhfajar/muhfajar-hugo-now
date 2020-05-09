@@ -1,3 +1,9 @@
+.cover-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 .post {
   width: 100%;
   max-width: 800px;
@@ -57,6 +63,20 @@
     @media #{$media-size-phone} {
       margin: 20px 0;
       width: 100%;
+    }
+
+    &__source {
+      position: absolute;
+      bottom: 8px;
+      left: -40px;
+      background: rgba(0, 0, 0, .6);
+      padding: 0 4px 2px 4px;
+      border-radius: 4px;
+
+      a {
+        font-size: .7rem;
+        text-decoration: none;
+      }
     }
   }
 

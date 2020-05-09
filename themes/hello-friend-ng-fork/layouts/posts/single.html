@@ -19,11 +19,16 @@
                 <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
             </h1>
 
-            {{ with .Params.Cover }}
-                <a href="/img/posts/{{ . }}" class="progressive replace post-cover">
-                    <img src="/img/posts/{{ . }}" alt="image" class="preview" />
-                </a>
-            {{ end }}
+            <div class="cover-container">
+                {{ with .Params.Cover }}
+                    <a href="/img/posts/{{ . }}" class="progressive replace post-cover">
+                        <img src="/img/posts/{{ . }}" alt="image" class="preview" />
+                    </a>
+                {{ end }}
+                {{ with .Params.CoverCredit }}
+                    <span class="post-cover__source hide-on-phone hide-on-tablet"><a href="{{ . }}">source</a></span>
+                {{ end }}
+            </div>
 
             {{- if .Params.toc }}
                 <div id="toc-container">
