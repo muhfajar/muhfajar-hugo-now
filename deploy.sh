@@ -13,7 +13,7 @@ echo "muhfajar.blog\c" > CNAME
 
 git add .
 
-msg="Rebuilding site $(date)"
+msg="[BOT] Rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
