@@ -3,9 +3,9 @@
         <div class="posts-info">
             <h1><a href="../posts">
                 {{- if in .URL "categories" -}}
-                    {{- if in .URL .Title -}}{{ i18n "postCategories" }} / {{ .Title }}{{- else -}}{{ i18n "postCategories" }}{{- end -}}
+                    {{- if in .URL .Title -}}{{ i18n "postCategories" }} // {{ .Title }}{{- else -}}{{ i18n "postCategories" }}{{- end -}}
                 {{- else if (in .URL "tags") -}}
-                    {{- if in .URL .Title -}}{{ i18n "postTags" }} / {{ .Title }}{{- else -}}{{ i18n "postTags" }}{{- end -}}
+                    {{- if in .URL .Title -}}{{ i18n "postTags" }} // {{ .Title }}{{- else -}}{{ i18n "postTags" }}{{- end -}}
                 {{- else -}}
                     {{ i18n "postTitle" }}
                 {{- end -}}
@@ -15,8 +15,14 @@
                     <div class="posts-type__content">
                         {{- if not (in .URL "categories") -}}
                             <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
+                            {{- if in .URL .Title -}}
+                                <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
+                            {{- end -}}
                         {{- end -}}
                         {{- if not (in .URL "tags")  -}}
+                            {{- if in .URL .Title -}}
+                                <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
+                            {{- end -}}
                             <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
                         {{- end -}}
                         {{- range .Translations -}}
