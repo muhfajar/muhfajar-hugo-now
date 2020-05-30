@@ -14,6 +14,13 @@
             </p>
         </div>
 
+        {{ $ageMonths := div (sub now.Unix .Date.Unix) 2592000 }}
+        {{ if gt $ageMonths 12 }}
+            <div class="post-info">
+                <p>This article was posted over a year ago. The information below could be outdated.</p>
+            </div>
+        {{ end }}
+
         <article>
             <h1 class="post-title">
                 <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>

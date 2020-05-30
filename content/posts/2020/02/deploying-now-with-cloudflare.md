@@ -1,6 +1,6 @@
 +++
 categories = ["tech"]
-date = "2018-11-25T04:52:59+07:00"
+date = "2020-02-15T04:52:59+07:00"
 draft = false
 slug = "deploying-now-with-cloudflare"
 tags = ["cloud", "tech", "now", "cloudflare"]

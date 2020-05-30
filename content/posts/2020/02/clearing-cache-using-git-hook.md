@@ -1,6 +1,6 @@
 +++
 categories = ["tech"]
-date = "2018-11-27T11:22:17+07:00"
+date = "2020-02-21T11:22:17+07:00"
 draft = false
 slug = "purge-cache-with-git-hooks"
 tags = ["cloud", "tech", "git", "cloudflare"]
