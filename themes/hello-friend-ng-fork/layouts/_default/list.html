@@ -13,17 +13,22 @@
             <div class="posts-type">
                 <div class="posts-type__inner">
                     <div class="posts-type__content">
-                        {{- if not (in .URL "categories") -}}
+                        {{- if in .URL "posts" -}}
                             <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
-                            {{- if in .URL .Title -}}
+                            <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
+                        {{- else -}}
+                            {{- if not (in .URL "categories") -}}
+                                <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
+                                {{- if in .URL .Title -}}
+                                    <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
+                                {{- end -}}
+                            {{- end -}}
+                            {{- if not (in .URL "tags")  -}}
+                                {{- if in .URL .Title -}}
+                                    <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
+                                {{- end -}}
                                 <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
                             {{- end -}}
-                        {{- end -}}
-                        {{- if not (in .URL "tags")  -}}
-                            {{- if in .URL .Title -}}
-                                <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
-                            {{- end -}}
-                            <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
                         {{- end -}}
                         {{- range .Translations -}}
                         <span><a href="{{ .Permalink }}">
