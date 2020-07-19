@@ -32,9 +32,10 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
+rssLimit = 5
 
 [permalinks]
-  posts = "/posts/:slug/"
+  posts = "/:slug/"
   tags = "/tags/:slug/"
   categories = "/categories/:slug/"
 
