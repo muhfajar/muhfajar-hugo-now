@@ -9,6 +9,8 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 cd public
 
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+
 echo "muhfajar.blog\c" > CNAME
 echo .DS_Store >> .gitignore
 
