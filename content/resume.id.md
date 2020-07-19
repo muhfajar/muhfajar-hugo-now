@@ -77,6 +77,11 @@ Bahasa Pemograman & Framework
 
 Proyek Sumber Terbuka
 
+:   Proyek pribadi.
+
+    * [queue](https://github.com/muhfajar/queue)
+    * [4gee-wifi-battery-watcher](https://github.com/muhfajar/4gee-wifi-battery-watcher)
+
 :   Saya juga berkontribusi pada proyek sumber terbuka, sebagian besar kontribusi
     karena saya menggunakan lib/app tersebut namun mendapatkan kesalahan saat
     mengkompilasi atau menjalankan dan juga menambahkan lokalisasi baru.
@@ -87,9 +92,14 @@ Proyek Sumber Terbuka
 
 Proyek Sampingan
 
+:   Pemelihara nirlaba.
+
+    * [Graha Ananda](https://grahaananda.sch.id); Full-stack developer, infra (Docker, domain, lainnya)
+    * [Graha Ananda Sistem pembelajaran online](https://app.grahaananda.sch.id); Full-stack developer, infra (Docker, domain, lainnya)
+
 :   Kurang dari 1 bulan kerja.
 
-    * [Brilcrist](http://brilcrist.com); Backend developer, infra (Docker, domain, etc)   
+    * [Brilcrist](http://brilcrist.com); Backend developer, infra (Docker, domain, lainnya)   
     * [Journal JPMF STIFA Makasar](http://www.jpms-stifa.com/index.php/jpms); Full-stack engineer
     
 :   Kurang dari 2 bulan kerja.

@@ -73,6 +73,11 @@ Programming Languages & Framework
 
 Open Source Projects
 
+:   Personal project
+
+    * [queue](https://github.com/muhfajar/queue)
+    * [4gee-wifi-battery-watcher](https://github.com/muhfajar/4gee-wifi-battery-watcher)
+
 :   I also contribute to open source project, mostly contribution because I'm
     using that lib/app but getting error when compile or running or also adding
     new localization.
@@ -82,6 +87,11 @@ Open Source Projects
     * [Arc-Menu](https://github.com/lexruee/Arc-Menu)
 
 Side Project
+
+:   Non-profit maintainer
+
+    * [Graha Ananda](https://grahaananda.sch.id); Full-stack developer, infra (Docker, domain, etc)
+    * [Graha Ananda Online Learning System](https://app.grahaananda.sch.id); Full-stack developer, infra (Docker, domain, etc)
 
 :   Less than 1 month of work.
 
