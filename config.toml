@@ -10,7 +10,7 @@ PygmentsStyle = "monokai"
 
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-googleAnalytics = "G-LX569461TH"
+googleAnalytics = "UA-172938328-1"
 disqusShortname = "muhfajar-id"
 
 archetypeDir = "archetypes"
