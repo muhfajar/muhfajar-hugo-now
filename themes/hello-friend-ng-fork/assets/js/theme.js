@@ -124,7 +124,7 @@ if (window.location.href.indexOf("settings") > -1) {
 }
 
 function changeFontSize(fontSize) {
-    if (fontSize >= 0.90 && fontSize <= 1.85) {
+    if (fontSize >= 0.87 && fontSize <= 1.85) {
         window.localStorage && window.localStorage.setItem(
             "font-size",
             String(fontSize),
