@@ -10,6 +10,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 cd public
 
 echo "muhfajar.blog\c" > CNAME
+echo .DS_Store >> .gitignore
 
 git add .
 
