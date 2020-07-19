@@ -1,6 +1,6 @@
 +++
 aliases = ["about", "about-us", "about-me", "contact"]
-date = "2018-10-09T18:30:21+07:00"
+date = "1991-10-09T18:30:21+07:00"
 draft = true
 tags = ["fajar"]
 title = "Cerpen Tentang Saya"
