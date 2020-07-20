@@ -65,7 +65,7 @@ To make https works you need change Cloudflare’s encryption mode to **Full (st
 
 ## Make Deploy Automatically
 
-If your project source code hosted on [GitHub][github], [GitLab][gitlab] or [Bitbucket][bitbucket], Vercel have tools to integrating with deploymant, so when you push code to the specific branch, Vercel will automatically detect changes and make a deployment. For more information,jump up to [Vercel documentation][doc].
+If your project source code hosted on [GitHub][github], [GitLab][gitlab] or [Bitbucket][bitbucket], Vercel have tools to integrating with deployment, so when you push code to the specific branch, Vercel will automatically detect changes and make a deployment. For more information,jump up to [Vercel documentation][doc].
 
 End of word, yes, I'm using Now in my [personal website landing][fajar]. Next: [Purge Cache with Git Hooks][cache].
 
