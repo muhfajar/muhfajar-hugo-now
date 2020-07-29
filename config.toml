@@ -159,3 +159,8 @@ rssLimit = 5
     [caches.modules]
         dir = ":cacheDir/modules"
     maxAge = -1
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
