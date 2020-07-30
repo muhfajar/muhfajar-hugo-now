@@ -1,0 +1,5 @@
+{{ if .Get "src" }}
+    <a href="{{ .Get "src" | safeURL }}" class="progressive replace post-img">
+        <img src="{{ .Get "src" | safeURL }}" alt="image" class="preview" />
+    </a>
+{{ end }}

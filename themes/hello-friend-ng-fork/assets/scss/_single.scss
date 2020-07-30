@@ -80,6 +80,22 @@
     }
   }
 
+  &-img {
+    border-radius: 8px;
+    width: 760px;
+    max-width: 760px;
+
+    @media #{$media-size-tablet} {
+      margin: 20px 0;
+      width: 100%;
+    }
+
+    @media #{$media-size-phone} {
+      margin: 20px 0;
+      width: 100%;
+    }
+  }
+
   &-info {
     margin-top: 30px;
     margin-bottom: 50px;
