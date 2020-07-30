@@ -1,6 +1,72 @@
 {{ define "main" }}
-{{ i18n "redirecting" }}
-<script>
-    window.location = "{{ .Site.BaseURL }}posts/";
-</script>
+    <main class="posts">
+        <div class="posts-info">
+            <h1><a href="../posts">
+                {{- if in .URL "categories" -}}
+                    {{- if in .URL .Title -}}{{ i18n "postCategories" }} // {{ .Title }}{{- else -}}{{ i18n "postCategories" }}{{- end -}}
+                {{- else if (in .URL "tags") -}}
+                    {{- if in .URL .Title -}}{{ i18n "postTags" }} // {{ .Title }}{{- else -}}{{ i18n "postTags" }}{{- end -}}
+                {{- else -}}
+                    {{ i18n "postTitle" }}
+                {{- end -}}
+            </a></h1>
+            <div class="posts-type">
+                <div class="posts-type__inner">
+                    <div class="posts-type__content">
+                        {{- if in .URL "posts" -}}
+                            <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
+                            <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
+                        {{- else -}}
+                            {{- if not (in .URL "categories") -}}
+                                <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
+                                {{- if in .URL .Title -}}
+                                    <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
+                                {{- end -}}
+                            {{- end -}}
+                            {{- if not (in .URL "tags")  -}}
+                                {{- if in .URL .Title -}}
+                                    <span><a href="{{- if in .URL .Title -}}../../categories/{{- else -}}../categories/{{- end -}}">{{ i18n "postCategories" }}</a></span>
+                                {{- end -}}
+                                <span><a href="{{- if in .URL .Title -}}../../tags/{{- else -}}../tags/{{- end -}}">{{ i18n "postTags" }}</a></span>
+                            {{- end -}}
+                        {{- end -}}
+                        {{- range .Translations -}}
+                        <span><a href="{{ .Permalink }}">
+                            <span class="hide-on-phone hide-on-tablet">{{ i18n "postTranslations" }}</span>
+                            <span class="hide-on-desktop">{{ i18n "postTranslationsMobile" }}</span>
+                        </a></span>
+                        {{- end -}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{- if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{- end }}
+
+        {{- range .Site.RegularPages.GroupByDate "2006" }}
+            <div class="posts-group">
+                <div class="post-year">{{ .Key }}</div>
+                <ul class="posts-list">
+                    {{- range .Pages }}
+                        {{ if isset .Params "categories" }}
+                            <li class="post-item">
+                                <a href="{{.Permalink}}">
+                                    <span class="post-title">{{.Title}}</span>
+                                    <span class="post-day">
+                                        {{ if .Site.Params.dateformShort }}
+                                            {{ .Date.Format .Site.Params.dateformShort }}
+                                        {{ else }}
+                                            {{ .Date.Format "Jan 2"}}
+                                        {{ end }}
+                                    </span>
+                                </a>
+                            </li>
+                        {{ end }}
+                    {{- end }}
+                </ul>
+            </div>
+        {{- end }}
+    </main>
 {{ end }}
