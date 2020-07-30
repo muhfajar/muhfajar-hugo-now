@@ -1,6 +1,6 @@
 +++
 aliases = ["résumé"]
-date = "2018-10-09T18:30:21+07:00"
+date = "2020-10-09T18:30:21+07:00"
 draft = false
 tags = ["fajar"]
 title = "Resume"
