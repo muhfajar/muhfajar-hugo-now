@@ -4,7 +4,7 @@ date = "2019-10-15T04:52:59+07:00"
 draft = false
 slug = "deploying-now-with-cloudflare"
 tags = ["cloud", "tech", "now", "cloudflare"]
-title = "Deploying Now With Cloudflare"
+title = "Deploying Now with Cloudflare"
 type = ["post", "posts"]
 toc = false
 
