@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Muhamad Fajar</title>
-        <link>https://muhfajar.blog/id/</link>
+        <link>https://www.muhfajar.blog/id/</link>
         <description>Recent content on Muhamad Fajar</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/deed.id" target="_blank" rel="noopener">CC
             BY-NC 4.0&lt;/a>
         </copyright>
         <lastBuildDate>Fri, 27 Mar 2020 11:24:21 +0700</lastBuildDate>
-        <atom:link href="https://muhfajar.blog/id/index.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://www.muhfajar.blog/id/index.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>Kisah .id dan .blog</title>
-            <link>https://muhfajar.blog/id/kisah-id-dan-blog/</link>
+            <link>https://www.muhfajar.blog/id/kisah-id-dan-blog/</link>
             <pubDate>Sat, 16 May 2020 23:30:23 +0700</pubDate>
-            <guid>https://muhfajar.blog/id/kisah-id-dan-blog/</guid>
+            <guid>https://www.muhfajar.blog/id/kisah-id-dan-blog/</guid>
             <description>Mungkin untuk beberapa orang yang pernah mengunjungi situs web pribadi saya sebelumnya akan
                 merasa pangling saat melihat tema dari halaman utamanya karena sebelumnya halaman utama situs web saya
                 merupakan halaman indeks dari CMS Hugo saja. Karena pada awalnya niat saya hanya untuk membuat situs web
@@ -25,9 +25,9 @@
         </item>
         <item>
             <title>Kerja Dari Rumah</title>
-            <link>https://muhfajar.blog/id/kerja-dari-rumah/</link>
+            <link>https://www.muhfajar.blog/id/kerja-dari-rumah/</link>
             <pubDate>Sat, 25 Apr 2020 20:42:23 +0700</pubDate>
-            <guid>https://muhfajar.blog/id/kerja-dari-rumah/</guid>
+            <guid>https://www.muhfajar.blog/id/kerja-dari-rumah/</guid>
             <description>Sudah hampir 2 bulan sejak dari kasus pertama Corona ditemukan di Indonesia, semua rutinitas
                 berubah secara drastis, dari mulai hal yang paling sering dianggap kecil saat sebelum ada wabah ini
                 seperti cuci tangan atau penggunaan hand sanitizer, ya sebelum ada wabah ini mungkin kita tanpa ragu

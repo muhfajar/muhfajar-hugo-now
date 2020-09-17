@@ -32,5 +32,5 @@ I decide to buy a wifi device from an online store, after some "research" about 
 
 So far so good, all going well, my internet connection is more stable. If you want to see or have the same problem and want to use my **4Gee Wifi Mini** battery watcher script, you can download at my [GitHub repo][git].
 
-[wfh]: https://muhfajar.blog/id/posts/kerja-dari-rumah/
+[wfh]: https://www.muhfajar.blog/id/posts/kerja-dari-rumah/
 [git]: https://github.com/muhfajar/4gee-wifi-battery-watcher

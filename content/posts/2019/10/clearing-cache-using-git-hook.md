@@ -32,35 +32,9 @@ touch pre-commit
 chmod +x pre-commit
 ```
 
-Inside file pre-commit, we can add shell script to call Cloudflare API like this:
+Inside file `pre-commit`, we can add shell script to call Cloudflare API like this:
 
-```shell
-#!/bin/bash
-
-if ! [ -f ~/.cloudflare_config_muhfajar.blog ] ; then
-  echo "No ~/.cloudflare_config_muhfajar.blog file found. Cloudflare clear cache SKIPPED."
-  exit 0
-fi
-
-. ~/.cloudflare_config_muhfajar.blog
-
-echo -n "Clearing Cloudflare cache of muhfajar.id ....."
-
-CF="$(curl -s -X DELETE "https://api.cloudflare.com/client/v4/zones/$CF_ID/purge_cache" \
-     -H "X-Auth-Email: $CF_EMAIL" \
-     -H "X-Auth-Key: $CF_API_KEY" \
-     -H "Content-Type: application/json" \
-     --data '{"purge_everything":true}')"
-
-if [ -n "$(echo $CF | grep success)" ] ; then
-  echo " Success!"
-else
-  echo " *** FAILED ***"
-  echo "Could not clear cloudflare's cache. Update will not proceed."
-  # exit with 1, so the update does not proceed, so we will know
-  exit 1
-fi
-```
+{{< gist muhfajar 2827adc296f5afb23c0f15b9835f881a >}}
 
 As you can see, that have separated config file, to make the script work, we also need to create a configuration file in the user directory.
 
@@ -79,7 +53,7 @@ CF_ID=cloudflare-zone-id
 
 To generate an API key in Cloudflare, please refer to this [link][token]. After all complete, now you can deploy and also tell Cloudflare to purge your cache, so your web visitor always gets the latest data.
 
-[deploy]: https://muhfajar.blog/posts/deploying-now-with-cloudflare/
+[deploy]: https://www.muhfajar.blog/posts/deploying-now-with-cloudflare/
 [cloudflare]: https://www.cloudflare.com/
 [git-hook]: https://githooks.com/
 [token]: https://developers.cloudflare.com/api/tokens/create

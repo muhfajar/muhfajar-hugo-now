@@ -76,5 +76,5 @@ End of word, yes, I'm using Now in my [personal website landing][fajar]. Next: [
 [gitlab]: https://about.gitlab.com/
 [bitbucket]: https://bitbucket.org/product/
 [doc]: https://vercel.com/docs/v2/git-integrations
-[fajar]: https://muhfajar.id/
-[cache]: https://muhfajar.blog/posts/purge-cache-with-git-hooks/
+[fajar]: https://www.muhfajar.id/
+[cache]: https://www.muhfajar.blog/posts/purge-cache-with-git-hooks/

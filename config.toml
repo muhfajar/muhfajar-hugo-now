@@ -1,4 +1,4 @@
-baseURL = "https://muhfajar.blog/"
+baseURL = "https://www.muhfajar.blog/"
 title   = "Muhamad Fajar"
 
 DefaultContentLanguage = "en"
@@ -129,15 +129,15 @@ rssLimit = 5
   [[menu.main]]
     identifier = "id"
     name       = "id"
-    url        = "https://muhfajar.id/"
+    url        = "https://www.muhfajar.id/"
   [[menu.main]]
     identifier = "contact"
     name       = "contact"
-    url        = "https://muhfajar.id/#contact"
+    url        = "https://www.muhfajar.id/#contact"
   [[menu.main]]
     identifier = "blog"
     name       = "blog"
-    url        = "https://muhfajar.blog/"
+    url        = "https://www.muhfajar.blog/"
   [[menu.main]]
     identifier = "resume"
     name       = "resume"

@@ -4,7 +4,7 @@
 {{ $theme := resources.Get "js/theme.js" }}
 {{ $progressiveImage := resources.Get "js/progressive-image.js" }}
 {{ $secureJS := slice $main $menu $prism $theme $progressiveImage | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint "sha512" }}
-<script type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+<script async defer type="text/javascript" src="{{ $secureJS.RelPermalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
 {{- if .Site.GoogleAnalytics }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
