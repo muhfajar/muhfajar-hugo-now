@@ -30,7 +30,7 @@ Datanglah hari yang ditunggu, hari besar Idul Adha. Pagi-pagi saya sudah bersiap
 
 Namun setelah melihat semangat Mamah untuk melaksanakan shalat ied, yasudahlah, *bismillah* lagi saja. Ihtiar saya datang ke mesjid dengan masker, bawa sarung, bawa sajadah dan yang pentingnya lagi, seperti ilustrasi dibawah ini, jaga jarak.
 
-{{< img src="https://cdn.weeknd.dev/sgp1/blog/img/posts/7B89C6F6-A356-49AB-B3B6-1713862FDE89_w1200_r1.jpg" >}}
+{{< img src="https://cdn.muhfajar.workers.dev/sgp1/blog/img/posts/7B89C6F6-A356-49AB-B3B6-1713862FDE89_w1200_r1.jpg" >}}
 {{< small text="Ilustrasi jaga jarak saat melaksanakan shalat; sumber: voabambara.com/a/5477284.html" >}}
 
 Lebaran sekarang memang sedikit berbeda dari lebaran-lebaran yang sebelumnya. Tetap semangat! Semoga pandemi ini segera usai.
