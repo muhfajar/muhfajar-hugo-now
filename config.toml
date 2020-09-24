@@ -56,11 +56,11 @@ rssLimit = 5
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Muhamad Fajar personal web"
+  description = "Muhamad Fajar — Software Engineer."
   keywords    = "muhamad fajar"
   images      = [""]
 
-  homeSubtitle = "- muhfajar.blog -"
+  homeSubtitle = "Muhamad Fajar — Software Engineer."
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
    gitUrl = "https://github.com/muhfajar/blog/commit/"
