@@ -20,8 +20,6 @@ Ever you heard about Django before? If not, you are like me in early 2016, the y
 
 Long short story, I had read the documentation and try the [project tutorial][django_tut] and surprisingly, what the motto says I think is all true. I only need to write a model and register to the admin view, and voila, create, update, read, and delete for the related a model complete with the dashboard, and the login page is ready to use. Oh, with the migration file as well. Quite promising isn't it.
 
-{{< giphy src="mhXEQ2SrpjGWQ" >}}
-
 In my journey to dig deeper with Django, I'm contributing the open-source project to find out how the others using this framework.
 
 ## The First Django Project

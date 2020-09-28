@@ -1,0 +1,7 @@
+{{ if .Get "video-id" }}
+<div class="stream">
+    <div style="position: relative; padding-top: 100%;">
+        <iframe src="https://iframe.videodelivery.net/{{ .Get "video-id" | safeURL }}?preload=true" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true" class="stream__content"></iframe>
+    </div>
+</div>
+{{ end }}
