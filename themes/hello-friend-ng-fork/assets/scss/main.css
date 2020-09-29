@@ -482,11 +482,6 @@ pre[class*=language-] {
 /* dark theme colors */
 /* font face */
 /* variables for js, must be the same as these in @custom-media queries */
-:root {
-  --phoneWidth: (max-width: 767px);
-  --tabletWidth: (max-width: 1024px);
-}
-
 @font-face {
   font-family: "Inter UI";
   font-style: normal;
