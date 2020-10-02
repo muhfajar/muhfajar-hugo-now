@@ -2,7 +2,7 @@
 
 const menuTrigger = document.querySelector(".menu-trigger");
 const menu = document.querySelector(".menu");
-const mobileQuery = "(max-width: 480px)";
+const mobileQuery = "(max-width: 767px)";
 const isMobile = () => window.matchMedia(mobileQuery).matches;
 const isMobileMenu = () => {
   menuTrigger && menuTrigger.classList.toggle("hidden", !isMobile());
