@@ -4,6 +4,9 @@
 [submodule "themes/hello-friend-ng"]
 	path = themes/hello-friend-ng
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "themes/hugo-theme-novela"]
+	path = themes/hugo-theme-novela
+	url = https://github.com/forestryio/hugo-theme-novela.git
 [submodule "public"]
 	path = public
 	url = https://github.com/muhfajar/muhfajar.github.io.git
