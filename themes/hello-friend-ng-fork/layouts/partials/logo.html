@@ -3,15 +3,16 @@
         <img src="{{ .Site.Params.Logo.path }}" alt="{{ .Site.Params.Logo.alt }}" />
     {{ else }}
         <a href="../" style="text-decoration: none;">
-            <span class="logo__mark">></span>
+            <span class="logo__mark"></span>
         </a>
         <a href="{{ if .Site.Params.Logo.LogoHomeLink }}{{ .Site.Params.Logo.LogoHomeLink }}{{else}}{{ .Site.BaseURL }}{{ i18n "translationLink" }}/posts/{{ end }}" style="text-decoration: none;">
-            <span class="logo__text">{{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>
-            <span class="logo__cursor" style=
-                  "{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}
-                   {{ with.Site.Params.Logo.logoCursorColor    }}background-color:{{ . }};{{ end }}
-                   {{ with.Site.Params.Logo.logoCursorAnimate  }}animation-duration:{{ . }};{{ end }}">
-            </span>
+<!--            <span class="logo__text">{{ with .Site.Params.Logo.logoText }}{{ . }}{{ else }}hello{{ end }}</span>-->
+            <span class="logo__text">/uhd&bull;ven&bull;chr/</span>
+<!--            <span class="logo__cursor" style=-->
+<!--                  "{{ with.Site.Params.Logo.logoCursorDisabled }}visibility:hidden;{{ end }}-->
+<!--                   {{ with.Site.Params.Logo.logoCursorColor    }}background-color:{{ . }};{{ end }}-->
+<!--                   {{ with.Site.Params.Logo.logoCursorAnimate  }}animation-duration:{{ . }};{{ end }}">-->
+<!--            </span>-->
         </a>
     {{ end }}
 </div>

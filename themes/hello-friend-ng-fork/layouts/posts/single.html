@@ -29,7 +29,7 @@
             <div class="cover-container">
                 {{ with .Params.Cover }}
                     <a href="https://cdn.muhfajar.blog/sgp1/static/img/posts/cover/{{ . }}" class="progressive replace post-cover">
-                        <img src="https://cdn.muhfajar.blog/sgp1/static/img/posts/cover/{{ . }}" alt="image" class="preview" />
+                        <img src="https://cdn.muhfajar.blog/sgp1/static/img/posts/cover/{{ . }}" loading="lazy" alt="image" class="preview" />
                     </a>
                 {{ end }}
                 {{ with .Params.CoverCredit }}

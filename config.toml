@@ -131,10 +131,6 @@ rssLimit = 5
     name       = "id"
     url        = "https://www.muhfajar.id/"
   [[menu.main]]
-    identifier = "contact"
-    name       = "contact"
-    url        = "https://www.muhfajar.id/#contact"
-  [[menu.main]]
     identifier = "blog"
     name       = "blog"
     url        = "https://www.muhfajar.blog/"
